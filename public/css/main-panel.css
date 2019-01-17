@@ -1,5 +1,9 @@
 
 
+body {
+    font-family: "Droid Sans", sans-serif;
+}
+
 /* Header */
 
 .header {
@@ -94,68 +98,55 @@
     height: 700px;
 }
 
+/* ### Flex container ### */
 
-/*.container-fluid {*/
-    /*width: 100%;*/
-    /*padding-right: 15px;*/
-    /*padding-left: 15px;*/
-    /*margin-right: auto;*/
-    /*margin-left: auto;*/
-/*}*/
-
-.break-out {
-    width: 100vw; /* Relative to 1% of the width of the viewport */
-    left: calc(-1 * (100vw - 100%) / 2);
-}
-
-/*.d-flex {*/
-    /*display: flex !important;*/
-/*}*/
-
-.flex-grow {
-    flex: 1;
-}
-
-.poster {
-    overflow: hidden;
-}
-
-.poster-home {
-    position: relative;
-}
-
-.justify-content-between {
-    justify-content: space-between !important;
-}
-
-.poster-home-image {
-    width: 100%;
+.flex-main-container {
     height: 100%;
-    right: 0;
-    position: absolute;
-    top: 0;
-    /*background: url(../images/laptop-800x464.png) no-repeat center -10px;*/
-    /*border: 1px solid black;*/
-}
-
-.row {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    align-items: center;
+    justify-content: center;
 }
 
-.align-items-center {
-    align-items: center !important;
+.flex-left-container {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.col-12 {
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    position: relative;
+.flex-half-container {
+    flex: 1;
+    overflow: auto;
 }
+
+.aligner {
+    max-width: 50%;
+}
+
+.flex-right-container {
+    flex: 1 1 0;
+}
+
+@media (min-width: 1200px) {
+    .col-12 {
+        padding-left: 15px;
+    }
+}
+
+
+
+/*.flex-main-container .poster-home-text {*/
+    /*font-size: calc(100vw / 22);*/
+    /*color: #FFFFFF;*/
+/*}*/
+
+
+
+
+
+
+
+
+
 
 /* ### h1 ### */
 
@@ -164,27 +155,12 @@ h1 {
     line-height: 1em;
 }
 
-.poster-home h1 {
-    font-size: calc(100vw / 30);
-}
-
-@media (min-width: 768px) {
-    .poster-home h1 {
-        color: #FFFFFF;
-    }
-}
-
-@media (min-width: 1024px) {
-    .mb-lg-3 {
-        margin-bottom: 60px !important;
-    }
-}
 
 /* ### End h1 ### */
 
 
-@media (min-width: 768px) {
-    .poster-home .text-1 {
+@media (min-width: 1200px) {
+    .text-1 {
         color: rgba(255,255,255,0.8);
         font-size: 1.625rem;
         max-width: 650px;
@@ -193,40 +169,10 @@ h1 {
 
 /* ### Laptop image container ### */
 
-@media (min-width: 768px) {
-    .d-md-block {
-        display: block !important;
-    }
-}
-
-/*.d-none {*/
-    /*display: none !important;*/
-/*}*/
-
-/*@media (min-width: 1024px) {*/
-    /*.poster-home-image {*/
-        /*left: 50vw;*/
-    /*}*/
-/*}*/
-
-@media (min-width: 768px) {
-    .poster-home-image {
-        left: 50vw;
-
-    }
-}
-
 .laptop {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.poster-home-image {
-    position: absolute;
-    right: 0;
-    height: 100%;
-    top: 0;
 }
 
 .poster-home-image picture {

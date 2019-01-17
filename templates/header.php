@@ -12,7 +12,7 @@
     <link href="../public/css/main-panel.css" rel="stylesheet" type="text/css">
 
     <!-- fonts -->
-    <!--    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <!--    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Anton' rel='stylesheet' type='text/css'>-->
     <!--    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>-->
 
@@ -47,34 +47,33 @@
         <div class="main-panel">
             <div class="linear-gradient">
                 <div class="container-fluid">
-<!--                    <div class="poster-home">-->
-<!--                        <div class="container-fluid d-flex flex-column justify-content-between">-->
-<!--                            <div class="row align-items-center flex-grow">-->
-<!--                                <div class="col-12 col-md-7 col-lg-6">-->
-<!--                                    <h1 class="wbr mb-1 mb-md-2 mb-lg-3">-->
-<!--                                        <span>Lorem ipsum dolor sit amet,</span>-->
-<!--                                        <span>Lorem ipsum dolor sit amet.</span>-->
-<!--                                    </h1>-->
-<!--                                    <p class="text-1">-->
-<!--                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do-->
-<!--                                        eiusmod tempor incididunt ut labore et dolore magna aliqua.-->
-<!--                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris-->
-<!--                                        nisi ut aliquip ex ea commodo consequat.-->
-<!--                                    </p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        <div class="poster-home-image d-none d-md-block">-->
-<!--                            <picture class="laptop">-->
-<!--                                <source-->
-<!--                                    srcset="../public/images/poster/laptop-600x348.png"-->
-<!--                                    type="image/png" >-->
-<!--                                <img-->
-<!--                                    src="../public/images/poster/laptop-600x348.png"-->
-<!--                                    type="image/png"-->
-<!--                                    alt="">-->
-<!--                            </picture>-->
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div class="poster-home flex-main-container">
+                        <div class="flex-left-container aligner">
+                            <div class="flex-half-container">
+                                <h1 class="">
+                                    <span>Lorem ipsum dolor sit amet,</span>
+                                    <span>Lorem ipsum dolor sit amet.</span>
+                                </h1>
+                                <p class="text-1">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+
+                    <div class="flex-right-container poster-home-image">
+                        <picture class="laptop">
+                            <source
+                                srcset="../public/images/poster/laptop-600x348.png"
+                                type="image/png" >
+                            <img
+                                src="../public/images/poster/laptop-600x348.png"
+                                type="image/png"
+                                alt="">
+                        </picture>
+                    </div>
                 </div>
             </div>
         </div>
