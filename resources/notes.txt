@@ -1,0 +1,12 @@
+
+
+To Do
+- Change color logo to black.
+- Change nav color text to grey and when in that link change to black.
+- Change background image 'code' to something else on black and python code.
+
+
+Footer
+- Change grey to black
+
+
