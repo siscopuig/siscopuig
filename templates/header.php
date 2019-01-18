@@ -27,15 +27,13 @@
 
 <!-- MAIN NAVIGATION -->
 <body>
-    <header class="header">
-        <a class="header-logo" href="#"></a>
-        <nav role="navigation" class="nav-bar vertical-center">
-
+    <header class="header-container">
+        <a class="header-logo" href="#" title="Sisco Puig home page"></a>
+        <nav class="" role="navigation">
 <!--            <input type="checkbox" id="toggle">-->
 <!--            <label for="toggle" class="toggle" onclick></label>-->
-
             <ul class="header-nav">
-                <li><a href="#">Profile</a></li>
+                <li><a class="active" href="#">Profile</a></li>
                 <li><a href="#">About me</a></li>
                 <li><a href="#">Github</a></li>
                 <li><a href="#">Contact</a></li>
@@ -50,7 +48,7 @@
                     <div class="poster-home flex-main-container">
                         <div class="flex-left-container aligner">
                             <div class="flex-half-container">
-                                <h1 class="">
+                                <h1 class="poster-home-header">
                                     <span>Lorem ipsum dolor sit amet,</span>
                                     <span>Lorem ipsum dolor sit amet.</span>
                                 </h1>
