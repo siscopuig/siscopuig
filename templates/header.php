@@ -19,7 +19,9 @@
     <!-- favicon -->
     <!--    <link rel="shortcut icon" type="image/x-icon" href="--><!--app/public/images/favicon.ico">-->
     <!--    <link rel="icon" href="../images/favicon.ico" type="image/icon">-->
-    
+
+    <script src="../public/js/jquery/jquery3.3.1.min.js"></script>
+
 
     <title>Sisco Puig - Web Developer</title>
 
@@ -41,39 +43,47 @@
         </nav>
     </header>
 
-    <!-- MAIN PANEL -->
-        <div class="main-panel">
-            <div class="linear-gradient">
-                <div class="container-fluid">
-                    <div class="poster-home flex-main-container">
-                        <div class="flex-left-container aligner">
-                            <div class="flex-half-container">
-                                <h1 class="poster-home-header">
-                                    <span>Lorem ipsum dolor sit amet,</span>
-                                    <span>Lorem ipsum dolor sit amet.</span>
-                                </h1>
-                                <p class="text-1">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                    nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
+    <!-- Main panel -->
+    <div class="main-panel">
+        <div class="linear-gradient">
+            <div class="container-fluid">
+                <div class="poster-home flex-main-container">
+                    <div class="flex-left-container aligner">
+                        <div class="flex-half-container">
+                            <h1 class="poster-home-header">
+                                <span>Lorem ipsum dolor sit amet,</span>
+                                <span>Lorem ipsum dolor sit amet.</span>
+                            </h1>
+                            <p class="text-1">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
                         </div>
-
-                    <div class="flex-right-container poster-home-image">
-                        <picture class="laptop">
-                            <source
-                                srcset="../public/images/poster/laptop-600x348.png"
-                                type="image/png" >
-                            <img
-                                src="../public/images/poster/laptop-600x348.png"
-                                type="image/png"
-                                alt="">
-                        </picture>
                     </div>
+
+                <div class="flex-right-container poster-home-image">
+                    <picture class="laptop">
+                        <source
+                            srcset="../public/images/poster/laptop-600x348.png"
+                            type="image/png" >
+                        <img
+                            src="../public/images/poster/laptop-600x348.png"
+                            type="image/png"
+                            alt="">
+                    </picture>
                 </div>
             </div>
         </div>
+        </div>
+    </div>
+    <!-- End Main panel   -->
+    <!-- What I do well -->
+    <div>
+
+    </div>
+
+    <script src="../public/js/home.js"></script>
 </body>
 </html>
