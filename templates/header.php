@@ -12,12 +12,14 @@
     <link href="../public/css/main-panel.css" rel="stylesheet" type="text/css">
 
     <!-- fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700'
+          rel='stylesheet' type='text/css'>
     <!--    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Anton' rel='stylesheet' type='text/css'>-->
     <!--    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>-->
 
     <!-- favicon -->
-    <!--    <link rel="shortcut icon" type="image/x-icon" href="--><!--app/public/images/favicon.ico">-->
+    <!--    <link rel="shortcut icon" type="image/x-icon" href="-->
+    <!--app/public/images/favicon.ico">-->
     <!--    <link rel="icon" href="../images/favicon.ico" type="image/icon">-->
 
     <script src="../public/js/jquery/jquery3.3.1.min.js"></script>
@@ -29,61 +31,95 @@
 
 <!-- MAIN NAVIGATION -->
 <body>
-    <header class="header-container">
-        <a class="header-logo" href="#" title="Sisco Puig home page"></a>
-        <nav class="" role="navigation">
-<!--            <input type="checkbox" id="toggle">-->
-<!--            <label for="toggle" class="toggle" onclick></label>-->
-            <ul class="header-nav">
-                <li><a class="active" href="#">Profile</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- Header nav-->
+<header class="header-container">
+    <a class="header-logo" href="#" title="Sisco Puig home page"></a>
+    <nav class="" role="navigation">
+        <!--            <input type="checkbox" id="toggle">-->
+        <!--            <label for="toggle" class="toggle" onclick></label>-->
+        <ul class="header-nav">
+            <li><a class="active" href="#">Profile</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- End Header nav-->
 
-    <!-- Main panel -->
-    <div class="main-panel">
-        <div class="linear-gradient">
-            <div class="container-fluid">
-                <div class="poster-home flex-main-container">
-                    <div class="flex-left-container aligner">
-                        <div class="flex-half-container">
-                            <h1 class="poster-home-header">
-                                <span>Lorem ipsum dolor sit amet,</span>
-                                <span>Lorem ipsum dolor sit amet.</span>
-                            </h1>
-                            <p class="text-1">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                                nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                        </div>
-                    </div>
+<!-- Main panel -->
+<div class="main-background">
+    <div class="container-fluid">
 
-                <div class="flex-right-container poster-home-image">
+    <!-- Poster home  -->
+        <div class="poster-home linear-gradient">
+            <div class="poster-home-flex-parent">
+                <div class="poster-home-flex-left">
+                    <h1 class="poster-home-header">
+                        <span>Lorem ipsum dolor sit amet,</span>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </h1>
+                    <p class="text-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="poster-home-flex-right poster-home-image">
                     <picture class="laptop">
                         <source
-                            srcset="../public/images/poster/laptop-600x348.png"
-                            type="image/png" >
+                                srcset="../public/images/poster/laptop-800x464.png"
+                                type="image/png">
                         <img
-                            src="../public/images/poster/laptop-600x348.png"
-                            type="image/png"
-                            alt="">
+                                src="../public/images/poster/laptop-800x464.png"
+                                type="image/png"
+                                alt="">
                     </picture>
                 </div>
             </div>
         </div>
+        <!-- Poster home  -->
+
+
+<!-- What I do well -->
+        <div class="widw-container">
+            <div class="widw-header">
+                <h2 class="headline-h2">What I Do Well</h2>
+            </div>
+            <div class="widw-flex-parent">
+                <div class="widw-flex-child">
+                    <div class="vector-code"></div>
+                    <h3>Code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="widw-flex-child">
+                    <div class="vector-data"></div>
+                    <h3>Code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="widw-flex-child">
+                    <div class="vector-deployment"></div>
+                    <h3>Code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="widw-flex-child">
+                    <div class="vector-environment"></div>
+                    <h3>Code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- End Main panel   -->
-    <!-- What I do well -->
-    <div>
+<!-- End What I do well -->
+
 
     </div>
+</div>
+<!-- End Main panel   -->
 
-    <script src="../public/js/home.js"></script>
+<script src="../public/js/home.js"></script>
 </body>
 </html>
