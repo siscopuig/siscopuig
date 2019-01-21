@@ -1,35 +1,39 @@
 <!-- FOOTER -->
-<footer id="footer">
-    <div class="wrap">
-        <div class="container">
-            <div class="col-box-6">
-                <div class="footer-left">
-                    <div class="footer-left-center">
-                        <p>Copyright 2014 by Sisco Puig, all rights reserved.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-box-6">
-                <div class="footer-right">
-                    <div class="footer-right-center">
-                        <ul role="navigation" class="social">
-                            <li><a class="linkedin" target="_blank" href="#">Find me on LinkedIn</a></li>
-                            <li><a class="facebook" target="_blank" href="#">Become a fan on Facebook</a></li>
-                            <li><a class="google" target="_blank" href="#">Follow me on Google+</a></li>
-                            <li><a class="twitter" target="_blank" href="#">Follow me on twitter</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+<!--<footer id="footer">-->
+<!--    <div class="wrap">-->
+<!--        <div class="container">-->
+<!--            <div class="col-box-6">-->
+<!--                <div class="footer-left">-->
+<!--                    <div class="footer-left-center">-->
+<!--                        <p>Copyright 2014 by Sisco Puig, all rights reserved.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-box-6">-->
+<!--                <div class="footer-right">-->
+<!--                    <div class="footer-right-center">-->
+<!--                        <ul role="navigation" class="social">-->
+<!--                            <li><a class="linkedin" target="_blank" href="#">Find me on LinkedIn</a></li>-->
+<!--                            <li><a class="facebook" target="_blank" href="#">Become a fan on Facebook</a></li>-->
+<!--                            <li><a class="google" target="_blank" href="#">Follow me on Google+</a></li>-->
+<!--                            <li><a class="twitter" target="_blank" href="#">Follow me on twitter</a></li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->
+</body>
+</html>
 <!-- END OF FOOTER -->
 
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 
-<script async="" src="../public/js/lazysizes.min.js"></script>
+<!--<script async="" src="../public/js/lazysizes.min.js"></script>-->
+
+<script src="../public/js/home.js"></script>
 
 <!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/ajax.js"></script>-->
 <!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/modernizr.min.js"></script>-->

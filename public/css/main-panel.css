@@ -11,10 +11,12 @@ Note: z-index only works on positioned elements (position:absolute, position:rel
 
 html {
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
     font-family: "Droid Sans", sans-serif;
+    letter-spacing: -0.025em;
 }
 
 a {
@@ -57,27 +59,16 @@ a {
 }
 /* End of header */
 
-/* Main Background */
-.main-background {
-    background-color: #a5afaf;
-}
-.container-fluid {
-    width: 100%;
-    max-width: 1800px;
-    background-color: #a5afaf;
-}
-/* End Main Background */
-
 
 /* Poster home */
 .linear-gradient {
     width: 100%;
-    height: 700px;
+    /*height: 700px;*/
     background-image: linear-gradient(to right, rgba(193, 193, 193 ,1), rgba(70, 68, 68, 1));
 }
 
 .poster-home-flex-parent {
-    height: 100%;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,19 +81,13 @@ a {
     padding-right: 15px;
 }
 
-/*.break-out {*/
-    /*width: 100vw;*/
-    /*position: relative;*/
-    /*left: calc(-1 * (100vw - 100%) / 2);*/
-/*}*/
-
 h1 {
     font-size: 36px;    /* fallback */
     font-weight: 500;
     line-height: 1em;
 }
 
-.poster-home-header {
+.poster-h1-text {
     font-size: 36px;
     color: #ffffff;
 }
@@ -129,15 +114,17 @@ h1 {
 
 /* What I do well */
 .widw-container {
-    height: 700px;
+    height: 900px;
 }
 
 .widw-header {
     height: 100px;
     flex: 0 0 100%;
+
 }
 
 .headline-h2 {
+    margin: 0;
     font-size: 3.25rem;
     font-weight: 500;
 }
@@ -145,8 +132,6 @@ h1 {
 .widw-flex-parent {
     display: flex;
     flex-wrap: wrap;
-    /*align-items: center;*/
-    /*justify-content: space-around;*/
 }
 
 .widw-flex-child {
@@ -154,7 +139,6 @@ h1 {
     padding: 20px;
     text-align: center;
 }
-
 .vector-code {
     width: 150px;
     height: 130px;
@@ -183,22 +167,91 @@ h1 {
     transform: scale(1);
     background-image: url("../../public/images/widw/environment-150x130.svg");
 }
+
+.hl-4-text {
+    font-size: 1.775rem;
+    font-weight: 500;
+}
+
+
 /* End What I do well */
 
+/* Principles */
+.principles {
+    background-color: #090909;
+}
+
+.principles-flex-parent {
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+}
+
+.principles-col-1 {
+    flex: 1;
+}
+
+.principles-col-2 {
+    flex-basis: 36%;
+}
+
+.principles-header {
+    margin: 0;
+    font-size: 3.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+.hl-3-text {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mb-lg-0 {
+    margin-bottom: 0;
+}
+
+.col-lg-3 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mb-lg-4 {
+    margin-bottom: 80px;
+}
 
 
 @media (min-width: 1200px) {
+    .pt-lg-8 {
+        padding-top: 160px;
+    }
+}
+
+@media (min-width: 1200px) {
     .container-fluid {
+        width: 100%;
+        max-width: 1800px;
         padding-left: 50px;
         padding-right: 50px;
     }
 }
+
 @media (min-width: 1200px) {
     .text-1 {
         color: rgba(255,255,255,0.8);
         font-size: 1.625rem;
         max-width: 650px;
     }
+}
+
+.text-2 {
+    margin: 0;
+    padding: 15px;
+    font-size: 1.375rem;
+    word-break: break-all;
+    color: #5D5D5D;
 }
 
 
