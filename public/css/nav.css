@@ -135,9 +135,9 @@ body{ -webkit-animation: bugfix infinite 1s; }
 
 @media only screen and (max-width: 479px){
 
-    .header > h1, .nav-right, .toggle:after{
+    /* .header > h1, .nav-right, .toggle:after{
 
-    }
+    } */
 
     .toggle:after {
         text-align: center;

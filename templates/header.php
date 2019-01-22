@@ -24,7 +24,6 @@
 
     <script src="../public/js/jquery/jquery3.3.1.min.js"></script>
 
-
     <title>Sisco Puig - Web Developer</title>
 
 </head>
@@ -160,6 +159,38 @@
     </div>
 </div>
 <!-- End Principles -->
+
+<!-- About me -->
+<div class="aboutme">
+    <div class="container-fluid">
+        <div class="flex-row pt-lg-8">
+            <div class="flex-row-1 mb-lg-4">
+                <picture>
+                    <!-- <source media="(min-width: 1200px)" srcset="img_pink_flowers.jpg">
+                    <source media="(min-width: 465px)" srcset="img_white_flower.jpg"> -->
+                    <img src="../public/images/aboutme-profile-circle-grey.jpeg" width="95px" height="95px">                    
+                </picture>
+            </div>
+            <div class="flex-row-2 mb-lg-4">
+                <h3>Who is this guy?</h3>
+            </div>
+            <div class="flex-row-3 mb-lg-4">
+                <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
+                <span class="impressions second hidden" style="opacity: 0;">I transform my thoughts into reality.</span>
+                <span class="impressions third hidden" style="opacity: 0;">I ride my bike whatever I go.</span>
+                <span class="mpressions last active" style="opacity: 1;">I enjoy great music and I love science fiction.</span>
+            </div>
+        </div>
+        <div class="flex-present">
+            <div class="present-box">
+                <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam omnis sit consectetur.</p>
+            </div>
+            <div class="present-box">
+                <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam omnis sit consectetur.</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 </body>

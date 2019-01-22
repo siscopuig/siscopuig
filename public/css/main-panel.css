@@ -32,6 +32,7 @@ a {
         height: 100px;
     }
 }
+
 .header-logo {
     width: 30px;
     height: 32px;
@@ -231,7 +232,7 @@ h1 {
 
 @media (min-width: 1200px) {
     .container-fluid {
-        width: 100%;
+        /* width: 100%; */
         max-width: 1800px;
         padding-left: 50px;
         padding-right: 50px;
@@ -254,6 +255,61 @@ h1 {
     color: #5D5D5D;
 }
 
+/* About me */
+
+.aboutme {
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-row-1 {
+    flex: 1;
+    background-color: #b1acac;
+    height: 95px;
+}
+
+.flex-row-2 {
+    flex: 1;
+    height: 80px;
+    background-color: #afd8eb;
+}
+
+.flex-row-3 {
+    flex: 1;
+    background-color: #c1e9d3;
+    height: 150px;
+}
+
+.impressions {
+    font-size: 35px;
+	font-weight: 500;
+	opacity: 0;
+    color: #080808;
+}
+
+.flex-present {
+    display: flex;
+    justify-content: space-between;
+}
+
+.present-box {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+
+
+
+/* End About me */
+
+
 
 
 
@@ -266,14 +322,5 @@ h1 {
 
 
 /* ### impressions ### */
-/*.hidden {*/
-    /*display: none !important;*/
-    /*visibility: hidden;*/
-/*}*/
-/*.impressions-fader .last .active {*/
-    /*-webkit-animation: logoFadeIn 2s ease-in;*/
-    /*-moz-animation: logoFadeIn 1s ease-in;*/
-    /*-o-animation: logoFadeIn 1s ease-in;*/
-    /*animation: logoFadeIn 1s ease-in;*/
-/*}*/
+
 /* ### end of impressions ### */

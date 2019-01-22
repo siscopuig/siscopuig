@@ -33,7 +33,7 @@
 
 <!--<script async="" src="../public/js/lazysizes.min.js"></script>-->
 
-<script src="../public/js/home.js"></script>
+<!-- <script src="../public/js/home.js"></script> -->
 
 <!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/ajax.js"></script>-->
 <!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/modernizr.min.js"></script>-->
