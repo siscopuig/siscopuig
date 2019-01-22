@@ -258,7 +258,6 @@ h1 {
 /* About me */
 
 .aboutme {
-    height: 700px;
     background-color: #ffffff;
 }
 
@@ -302,6 +301,16 @@ h1 {
     flex-basis: 50%;
     box-sizing: border-box;
     padding: 20px;
+}
+
+.talk {
+    /* Blue final color #2646FF */
+    background-color: #d6d6d6f5;
+    height: 900px;
+}
+
+.row-talk {
+    background-color: rgb(243, 229, 229);
 }
 
 

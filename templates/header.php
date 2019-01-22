@@ -136,8 +136,6 @@
                     <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                         pulvinar lorem et nibh egestas congue.</p>
                 </div>
-
-
             </div>
             <div class="principles-col-2">
                 <div class="mb-lg-4">
@@ -156,6 +154,7 @@
                         pulvinar lorem et nibh egestas congue.</p>
                 </div>
             </div>
+        </div>
     </div>
 </div>
 <!-- End Principles -->
@@ -191,7 +190,20 @@
         </div>
     </div>
 </div>
+<!-- End About me -->
 
+<!-- Let's talk -->
+<div class="talk">
+    <div class="container-fluid">
+        <div class="row-talk">
+            <h2>Ready to get started?</h2>
+            <span>You know about me, let’s talk about you.</span>
+            <a href="#">Check out my work</a>
+            <a href="#">Send me a message</a>
+        </div>
+    </div>
+</div>
+<!-- End Let's talk -->
 
 </body>
 </html>
