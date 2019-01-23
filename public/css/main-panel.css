@@ -305,12 +305,73 @@ h1 {
 
 .talk {
     /* Blue final color #2646FF */
-    background-color: #d6d6d6f5;
-    height: 900px;
+    background-color: #2646FF;
+    /* background-color: #ffffff; */
+    /* height: 900px; */
 }
 
-.row-talk {
+/* .row-talk {
     background-color: rgb(243, 229, 229);
+} */
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-0 {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta > h2 {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.mb-2 {
+    margin-bottom: 40px;
+}
+
+.cta > span {
+    font-size: 2.125rem;
+    font-weight: 500;
+    opacity: 1;
+    display: block;
+    color: #ffffff;
+}
+
+.mlr-4 { 
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin: 0 40px;
+    display: inline-block;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.mb-4 {
+    margin-bottom: 80px;
+}
+
+.pb-lg-8 {
+    padding-bottom: 120px;
+}
+
+/* Footer */
+
+footer {
+    height: 700px;
+}
+
+.clr-black {
+    background-color: #000000;
 }
 
 

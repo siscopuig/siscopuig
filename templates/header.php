@@ -195,15 +195,27 @@
 <!-- Let's talk -->
 <div class="talk">
     <div class="container-fluid">
-        <div class="row-talk">
-            <h2>Ready to get started?</h2>
-            <span>You know about me, let’s talk about you.</span>
-            <a href="#">Check out my work</a>
-            <a href="#">Send me a message</a>
+        <div class="row-talk flex-wrap pt-lg-8 pb-lg-8">
+            <div class="col-0 cta">
+                <h2 class="mb-2">Ready to get started?</h2>
+                <span class="mb-4">You know about me, let’s talk about you.</span>
+                <a class="mlr-4" href="#">Check out my work</a>
+                <a class="mlr-4" href="#">Send me a message</a>
+            </div>
         </div>
     </div>
 </div>
 <!-- End Let's talk -->
+
+<!-- Footer -->
+<footer class="clr-black">
+    <div class="container-fluid">
+        <div class="flex-wrap">
+            
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
