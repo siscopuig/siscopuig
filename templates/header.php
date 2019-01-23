@@ -12,8 +12,8 @@
     <link href="../public/css/main-panel.css" rel="stylesheet" type="text/css">
 
     <!-- fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700'
-          rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'> -->
     <!--    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Anton' rel='stylesheet' type='text/css'>-->
     <!--    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>-->
 
@@ -27,7 +27,6 @@
     <title>Sisco Puig - Web Developer</title>
 
 </head>
-
 <!-- MAIN NAVIGATION -->
 <body>
 <!-- Header nav-->
@@ -45,7 +44,6 @@
     </nav>
 </header>
 <!-- End Header nav-->
-
 <!-- Poster home  -->
 <div class="poster-home linear-gradient">
     <div class="container-fluid">
@@ -80,45 +78,43 @@
     </div>
 </div>
 <!-- Poster home  -->
-
 <!-- What I do well -->
 <div class="widw-container">
     <div class="container-fluid">
-        <div class="widw-header pt-lg-8">
-            <h2 class="headline-h2">What I do well</h2>
-        </div>
-        <div class="widw-flex-parent">
+        <div class="row py-lg-6 tx-al-ce">
+            <div class="col-12">
+                <h2 class="hl2-text">What I do well</h2>
+            </div>
             <div class="widw-flex-child">
                 <div class="vector-code"></div>
-                <h3 class="hl-2-text">Code</h3>
+                <h3 class="hl3-text">Code</h3>
                 <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="widw-flex-child">
                 <div class="vector-data"></div>
-                <h3 class="hl-2-text">Data</h3>
+                <h3 class="hl3-text">Data</h3>
                 <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="widw-flex-child">
                 <div class="vector-deployment"></div>
-                <h3 class="hl-2-text">Deployment</h3>
+                <h3 class="hl3-text">Deployment</h3>
                 <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="widw-flex-child">
                 <div class="vector-environment"></div>
-                <h3 class="hl-2-text">Environment</h3>
+                <h3 class="hl3-text">Environment</h3>
                 <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
     </div>
 </div>
 <!-- End What I do well -->
-
 <!-- Principles -->
 <div class="principles">
     <div class="container-fluid">
-        <div class="principles-flex-parent pt-lg-8">
+        <div class="row py-lg-6">
             <div class="principles-col-1 mb-lg-0 col-lg-3">
-                <h2 class="principles-header">Principles</h2>
+                <h2 class="headline-h2 clr-white">Principles</h2>
             </div>
             <div class="principles-col-2">
                 <div class="mb-lg-4">
@@ -158,7 +154,6 @@
     </div>
 </div>
 <!-- End Principles -->
-
 <!-- About me -->
 <div class="aboutme">
     <div class="container-fluid">
@@ -191,7 +186,6 @@
     </div>
 </div>
 <!-- End About me -->
-
 <!-- Let's talk -->
 <div class="talk">
     <div class="container-fluid">
@@ -206,16 +200,36 @@
     </div>
 </div>
 <!-- End Let's talk -->
-
 <!-- Footer -->
-<footer class="clr-black">
+<footer class="clr-black pt-3 pb-3">
     <div class="container-fluid">
-        <div class="flex-wrap">
-            
+        <div class="row footer clr-white">
+            <div class="col-1">
+                <a class="logo-white"></a>
+            </div>
+            <div class="col-4 footer-about">
+                <span class="title ml-1">HANDCRAFTED BY SISCO PUIG</span>
+                <span class="subline ml-1">© Copyright 2014-2018 by Sisco Puig, all rights reserved.</span>
+            </div>
+            <div class="col-2">
+                <nav class="" role="navigation">
+                    <ul>
+                        <li>Profile</li>
+                        <li>About me</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-2">
+                <ul>
+                    <li>Github</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>
-
-
+<!-- End Footer -->
 </body>
 </html>
