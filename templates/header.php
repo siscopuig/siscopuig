@@ -200,13 +200,13 @@
 </div>
 <!-- End Let's talk -->
 <!-- Footer -->
-<footer class="clr-black pt-3 pb-3">
+<footer class="clr-black py-lg-3">
     <div class="container-fluid">
         <div class="row footer clr-white">
             <div class="col-1">
                 <a class="logo-white"></a>
             </div>
-            <div class="col-4 footer-about">
+            <div class="col-4">
                 <span class="title ml-1">HANDCRAFTED BY SISCO PUIG</span>
                 <span class="subline ml-1">© Copyright 2014-2018 by Sisco Puig, all rights reserved.</span>
             </div>
