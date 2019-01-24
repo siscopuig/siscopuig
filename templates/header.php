@@ -83,7 +83,7 @@
     <div class="container-fluid">
         <div class="row py-lg-6 tx-al-ce">
             <div class="col-12">
-                <h2 class="hl2-text">What I do well</h2>
+                <h2 class="hl2-text mb-lg-5">What I do well</h2>
             </div>
             <div class="widw-flex-child">
                 <div class="vector-code"></div>
@@ -155,36 +155,35 @@
 </div>
 <!-- End Principles -->
 <!-- About me -->
-<div class="aboutme">
+<section>
     <div class="container-fluid">
-        <div class="flex-row pt-lg-8">
-            <div class="flex-row-1 mb-lg-4">
+        <div class="row-column py-lg-6">
+            <div class="col-12 aboutme mb-lg-4">
                 <picture>
                     <!-- <source media="(min-width: 1200px)" srcset="img_pink_flowers.jpg">
                     <source media="(min-width: 465px)" srcset="img_white_flower.jpg"> -->
                     <img src="../public/images/aboutme-profile-circle-grey.jpeg" width="95px" height="95px">                    
                 </picture>
             </div>
-            <div class="flex-row-2 mb-lg-4">
-                <h3>Who is this guy?</h3>
+            <div class="col-12 aboutme mb-lg-4">
+                <h2 class="hl2-text">Who is this guy?</h3>
             </div>
-            <div class="flex-row-3 mb-lg-4">
-                <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
+            <div class="col-12 aboutme mb-lg-4">
+                <!-- <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
                 <span class="impressions second hidden" style="opacity: 0;">I transform my thoughts into reality.</span>
-                <span class="impressions third hidden" style="opacity: 0;">I ride my bike whatever I go.</span>
-                <span class="mpressions last active" style="opacity: 1;">I enjoy great music and I love science fiction.</span>
-            </div>
-        </div>
-        <div class="flex-present">
-            <div class="present-box">
-                <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam omnis sit consectetur.</p>
+                <span class="impressions third hidden" style="opacity: 0;">I ride my bike whatever I go.</span> -->
+                <span class="impressions last active" style="opacity: 1;">I enjoy great music and I love science fiction.</span>
             </div>
             <div class="present-box">
-                <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam omnis sit consectetur nobis molestias! Explicabo deserunt. Consectetur adipisicing elit. Quibusdam obcaecati vel, placeat numquam placeat numquam omnis sit consectetur.</p>
+                <p class="text-2">As a student of Web Technologies I am able to work in various web related roles, I have a wide range of
+                skills; front end development, design, and back end development. I would like take on back end development
+                projects now but I am open to front end as well. As a student I have little or not experience in
+                production development, but I am able to work on a project with the full scope in mind.
+                </p>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!-- End About me -->
 <!-- Let's talk -->
 <div class="talk">

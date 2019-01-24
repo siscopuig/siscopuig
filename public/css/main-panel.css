@@ -135,7 +135,6 @@ h1 {
 
 
 /* What I do well */
-
 .col-2 {
     height: 100px;
     flex: 0 0 100%;
@@ -236,7 +235,7 @@ h1 {
 }
 
 .mb-lg-4 {
-    margin-bottom: 80px;
+    margin-bottom: 80px !important;
 }
 
 
@@ -255,51 +254,33 @@ h1 {
 }
 
 /* About me */
-
-.aboutme {
-    background-color: #ffffff;
-}
-
-.flex-row {
+.row-column {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction:column;
 }
-.flex-row-1 {
-    flex: 1;
-    background-color: #b1acac;
-    height: 95px;
+.aboutme{
+    text-align: center;
 }
-
-.flex-row-2 {
-    flex: 1;
-    height: 80px;
-    background-color: #afd8eb;
-}
-
-.flex-row-3 {
-    flex: 1;
-    background-color: #c1e9d3;
-    height: 150px;
-}
-
 .impressions {
     font-size: 35px;
 	font-weight: 500;
 	opacity: 0;
     color: #080808;
+    text-align: center;
 }
-
-.flex-present {
-    display: flex;
-    justify-content: space-between;
-}
-
-.present-box {
-    flex-basis: 50%;
-    box-sizing: border-box;
+.present-box p {
+    column-count: 2;
+	column-gap: 30px;
+	margin: 0 auto;
     padding: 20px;
+    text-align: justify;
+    line-height: 1.6em;
+	/* -webkit-column-count: 2;
+	-webkit-column-gap: 30px; */
+	/* mozilla firefox */
+	/* -moz-column-count: 2;
+	-moz-column-gap: 30px; */
+	/* internet explorer */
 }
 
 .talk {
@@ -364,10 +345,6 @@ h1 {
 }
 
 /* Footer ############################### */
-
-footer {
-    /* height: 300px; */
-}
 .pt-3 {
     padding-top: 40px;
 }
@@ -447,7 +424,11 @@ footer {
         padding-bottom: 120px !important;
     }
     .pt-lg-8 {
-        padding-top: 120px;
+        padding-top: 120px !important;
+    }
+
+    .mb-lg-5 {
+        margin-bottom: 100px !important;
     }
 }
 
