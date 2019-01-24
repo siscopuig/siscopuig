@@ -1,32 +1,34 @@
-<!-- FOOTER -->
-<!--<footer id="footer">-->
-<!--    <div class="wrap">-->
-<!--        <div class="container">-->
-<!--            <div class="col-box-6">-->
-<!--                <div class="footer-left">-->
-<!--                    <div class="footer-left-center">-->
-<!--                        <p>Copyright 2014 by Sisco Puig, all rights reserved.</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-box-6">-->
-<!--                <div class="footer-right">-->
-<!--                    <div class="footer-right-center">-->
-<!--                        <ul role="navigation" class="social">-->
-<!--                            <li><a class="linkedin" target="_blank" href="#">Find me on LinkedIn</a></li>-->
-<!--                            <li><a class="facebook" target="_blank" href="#">Become a fan on Facebook</a></li>-->
-<!--                            <li><a class="google" target="_blank" href="#">Follow me on Google+</a></li>-->
-<!--                            <li><a class="twitter" target="_blank" href="#">Follow me on twitter</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</footer>-->
-</body>
-</html>
-<!-- END OF FOOTER -->
+<!-- Footer -->
+<footer class="clr-black py-lg-3">
+    <div class="container-fluid">
+        <div class="row footer clr-white">
+            <div class="col-1">
+                <a class="logo-white"></a>
+            </div>
+            <div class="col-4">
+                <span class="title ml-1">HANDCRAFTED BY SISCO PUIG</span>
+                <span class="subline ml-1">© Copyright 2014-2018 by Sisco Puig, all rights reserved.</span>
+            </div>
+            <div class="col-2">
+                <nav class="" role="navigation">
+                    <ul>
+                        <li>Profile</li>
+                        <li>About me</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-2">
+                <ul>
+                    <li>Github</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
 
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -51,6 +53,5 @@
 <!--	ga('create', 'UA-55331708-1', 'auto');-->
 <!--	ga('send', 'pageview');-->
 <!--</script>-->
-        </div>
-    </body>
+</body>
 </html>
