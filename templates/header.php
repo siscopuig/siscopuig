@@ -10,6 +10,7 @@
     <!-- css files -->
     <link href="../public/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../public/css/main-panel.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/custom-animation.css" rel="stylesheet" type="text/css">
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
