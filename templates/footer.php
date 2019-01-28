@@ -6,8 +6,8 @@
                 <a class="logo-white"></a>
             </div>
             <div class="col-4">
-                <span class="title ml-1">HANDCRAFTED BY SISCO PUIG</span>
-                <span class="subline ml-1">© Copyright 2014-2018 by Sisco Puig, all rights reserved.</span>
+                <span class="title">Handcrafted by Sisco Puig</span>
+                <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
             </div>
             <div class="col-2">
                 <nav class="" role="navigation">

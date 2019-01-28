@@ -59,7 +59,6 @@ ul {
         height: 100px;
     }
 }
-
 .header-logo {
     width: 30px;
     height: 32px;
@@ -94,18 +93,27 @@ ul {
     background-image: linear-gradient(to right, rgba(193, 193, 193 ,1), rgba(70, 68, 68, 1));
 }
 
-.poster-home-flex-parent {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.break-out {
+    width: 100vw;
+    position: relative;
+    left: calc(-1 * (100vw - 100%) / 2);
 }
 
-.poster-home-flex-left {
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important
+}
+
+.flex-grow {
     flex: 1;
-    flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.poster-home {
+    position: relative;
 }
 
 h1 {
@@ -123,19 +131,30 @@ h1 {
     flex: 1;
 }
 
-.laptop {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.poster-home-image {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-.poster-home-image picture {
+
+.poster-home-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    -o-object-fit: cover;
     object-position: 0 50%;
-    -o-object-position: 0 50%;
 }
+
+img .lazyfade .lazyloaded {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.poster {
+    overflow: hidden;
+}
+
+
 /* End Main panel */
 
 
@@ -235,18 +254,17 @@ h1 {
     padding-right: 15px;
 }
 
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
 .mb-lg-4 {
     margin-bottom: 80px !important;
 }
 
 
-@media (min-width: 1200px) {
-    .text-1 {
-        color: rgba(255,255,255,0.8);
-        font-size: 1.625rem;
-        max-width: 650px;
-    }
-}
+
 
 .text-2 {
     padding: 20px;
@@ -358,12 +376,12 @@ h1 {
 }
 .col-2 {
     flex: 0 0 20%;
-    background-color: #7a7a7a75;
+    /* background-color: #7a7a7a75; */
     /* max-width: 150px; */
 }
 .col-4 {
     flex: 0 0 50%;
-    background-color: #888d8f71
+    /* background-color: #888d8f71 */
 }
 .footer ul {
     list-style: none;
@@ -371,6 +389,7 @@ h1 {
 
 .footer li {
     font-size: 1.25rem;
+    font-weight: 700;
     line-height: 3.5rem;
 }
 
@@ -382,59 +401,37 @@ h1 {
     display: inline-block;
 }
 .title {
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 2.5rem;
-    letter-spacing: 4px;
+    font-size: 1.425rem;
+    letter-spacing: 0.05em;
+    font-family: 'Lalezar';
+    /* line-height: 2.5rem; */
 }
 .subline {
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2px;
-
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    /* font-family: 'Lalezar';  */
 }
 
 .ml-1 {
     margin-left: 20px;
 }
 .logo-white {
-    width: 35px;
-    height: 37px;
+    width: 21px;
+    height: 22px;
+    top: 5px;
+    position: relative;
     display: inline-block;
-    /* text-indent: -9999em; */
-    transform: scale(1);
-    /* transform-origin: left center; */
+    transform: scale(1.5);
+    transform-origin: left center;
     filter: brightness(1);
-    background: transparent url("../../public/images/logo/logo-white-35x37.svg") no-repeat scroll 0 0;
+    background: transparent url("../../public/images/logo/logo-white-21x22.svg") no-repeat scroll 0 0;
 }
 .clr-white {
     color: #ffffff;
 }
 
 /* End Footer */
-
-/* Media queries */
-@media (min-width: 1200px) {
-    .container-fluid {
-        max-width: 1800px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .py-lg-6 {
-        padding-top: 120px !important;
-        padding-bottom: 120px !important;
-    }
-    .pt-lg-8 {
-        padding-top: 120px !important;
-    }
-    .mb-lg-5 {
-        margin-bottom: 100px !important;
-    }
-    .py-lg-3 {
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-}
 
 .hl2-text {
     font-size: 3.25rem;
@@ -443,7 +440,9 @@ h1 {
 
 .hl3-text {
     font-size: 1.775rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 15px;
 }
 
 .col-flex-1 {
@@ -588,12 +587,13 @@ textarea.form-control:focus {
 .findme-box li {
     display: flex;
     align-items: center;
-    padding-left: 80px;
+    padding-left: 60px;
     padding-bottom: 20px;
 }
 
 .findme-box li > a {
-    font-size: 1.125rem;
+    font-size: 1.225rem;
+    font-weight: 600;
 }
 
 .letter-logo {
@@ -613,4 +613,10 @@ textarea.form-control:focus {
     height: 35px;
     background: url("../images/contact/sky-logo-35x35.svg") no-repeat scroll 0 0;
 }
+
+
+
+
+
+
 

@@ -2,33 +2,51 @@
 <!-- Poster home  -->
 <div class="poster-home linear-gradient">
     <div class="container-fluid">
-        <div class="poster-home-flex-parent">
-            <div class="poster-home-flex-left">
-                <h1 class="poster-h1-text">
-                    <span>Lorem ipsum dolor sit amet,</span>
-                    <span>Lorem ipsum dolor sit amet.</span>
-                </h1>
-                <p class="text-1">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat.
-                </p>
+        <div class="break-out d-flex poster-home poster">
+            <div class="d-flex">
+                <div class="row align-items-center flex-grow">
+                    <div class="col-lg-6 col-12">
+                        <h1 class="poster-h1-text">
+                            <span>Lorem ipsum dolor sit amet,</span>
+                            <span>Lorem ipsum dolor sit amet.</span>
+                        </h1>
+                        <p class="text-1">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="poster-home-flex-right poster-home-image">
-                <picture class="laptop">
-                    <source
-                            srcset="../public/images/poster/laptop-800x464.png"
-                            type="image/png">
-                    <img
-                            src="../public/images/poster/laptop-800x464.png"
-                            type="image/png"
-                            alt="">
-                </picture>
-            </div>
+        </div>
+        <div class="poster-home-image d-md-block d-none">
+            <img class="lazyfade lazyloaded" alt=""
+                data-srcset="../public/images/poster/laptop-3000x1740.png 3000w,
+                ../public/images/poster/laptop-2000x1160.png 2000w,
+                ../public/images/poster/laptop-1500x870.png 1500w,
+                ../public/images/poster/laptop-1000x580.png 1000w" 
+                data-sizes="(min-width: 768px) 50vw, 1vw" 
+                data-src="../public/images/poster/laptop-3000x1740.png" 
+                sizes="(min-width: 768px) 50vw, 1vw" 
+                srcset="../public/images/poster/laptop-3000x1740.png 3000w,
+                ../public/images/poster/laptop-2000x1160.png 2000w,
+                ../public/images/poster/laptop-1500x870.png 1500w,
+                ../public/images/poster/laptop-1000x580.png 1000w" 
+                src="../public/images/poster/laptop-3000x1740.png"
+            >
+            <!-- <picture class="laptop">
+                <source
+                        srcset="../public/images/poster/laptop-800x464.png"
+                        type="image/png">
+                <img
+                        src="../public/images/poster/laptop-800x464.png"
+                        type="image/png"
+                        alt="">
+            </picture> -->
         </div>
     </div>
 </div>

@@ -10,10 +10,12 @@
     <!-- css files -->
     <link href="../public/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../public/css/main-panel.css" rel="stylesheet" type="text/css">
-    <link href="../public/css/custom-animation.css" rel="stylesheet" type="text/css">
+    <link href="../public/css/queries.css" rel="stylesheet" type="text/css">
+    <!-- <link href="../public/css/custom-animation.css" rel="stylesheet" type="text/css"> -->
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'> -->
     <!--    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Anton' rel='stylesheet' type='text/css'>-->
     <!--    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>-->
