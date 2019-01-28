@@ -40,6 +40,7 @@ a {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 .col-12 {
@@ -454,10 +455,6 @@ h1 {
     align-items: center;
 }
 
-.city-board > span {
-    font-size: 1.125rem;
-}
-
 .map {
     background: url("../images/contact/map-242x320.png") no-repeat;
 	width: 242px;
@@ -466,12 +463,19 @@ h1 {
 }
 
 .city-board {
-    top: 10px;
-    left: 117px;
-	width: 137px;
-    height: 58px;
+    top: -40px;
+    left: 65px;
+	width: 180px;
+    height: 90px;
     position: relative;
-    background: url("../images/contact/indicator-137x58.png") no-repeat;
+    background: url("../images/contact/bubble-170x81.svg") no-repeat;
+    text-align: center;
+}
+
+.city-board > p {
+    padding-top: 25px;
+    font-size: 1.125rem;
+    display:inline-block;
 }
 
 /* Contact form */
@@ -578,12 +582,35 @@ textarea.form-control:focus {
 }
 
 .keeptouch-box .findme-box {
-    flex: 0 0 40%;
+    flex: 1;
 }
 
-/* .mail-icon { 
-    width: 45px;
-    height: 33px;
-    background-image: url("../images/contact/letter-45x33.svg") no-repeat; 
-} */
+.findme-box li {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.findme-box li > a {
+    font-size: 1.125rem;
+}
+
+.letter-logo {
+    width: 35px;
+    height: 26px;
+    background: url("../images/contact/letter-35x26.svg") no-repeat scroll 0 0;
+}
+
+.face-logo {
+    width: 35px;
+    height: 35px;
+    background: url("../images/contact/flogo-35x35.svg") no-repeat scroll 0 0;
+}
+
+.sky-logo {
+    width: 35px;
+    height: 35px;
+    background: url("../images/contact/sky-logo-35x35.svg") no-repeat scroll 0 0;
+}
 

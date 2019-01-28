@@ -11,7 +11,8 @@
             <div class="col-flex-1">
                 <div class="map">
                     <div class="city-board">
-                        <span class="">Berlin, Germany</span>
+                        <!-- <span class="">Berlin, Germany</span> -->
+                        <p>Berlin, Germany</p>
                     </div>
                     <div class="pin bounce"></div>
                     <div class="pulse"></div>
@@ -44,30 +45,16 @@
                 </div>
                 <div class="contact-box">
                     <div class="keeptouch-box">
-                        <h3 class="hl3-text clr-white">keep in touch</h2>
+                        <h3 class="hl3-text clr-white">keep in touch</h3>
                         <p class="text-3 clr-white">If you want to talk about your project, or if you are interested in my availability and rates, I recommend that you contact me via Email or Skype.</p>
                     </div>
                     <div class="findme-box clr-white">
-                        <h3 class="hl3-text">find me on:</h2>
-                            <span><img src="../public/images/contact/letter-45x33.svg" width="45px" height="33px"></span>
-                            <span><a class="text-3" href="mailto:sisco@siscopuig.com">sisco@siscopuig.com</a></span>
-                            <!-- <ul>
-                                <li>
-                                    <div class="mail-icon">
-                                        <a class="text-3" href="mailto:sisco@siscopuig.com">sisco@siscopuig.com</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="skype-icon">
-                                        <a class="text-3" href="skype:siscopuig?add">siscopuig</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="linkedin-icon">
-                                        <a class="text-3" href="https://www.linkedin.com/pub/sisco-puig/81/216/83b">linkedin</a>
-                                    </div>
-                                </li>
-                            </ul> -->
+                        <h3 class="hl3-text">find me on:</h3>
+                        <ul>
+                            <li class="letter-logo"><a class="pl-lg-5">sisco@siscopuig.com</a></li>
+                            <li class="face-logo"><a class="pl-lg-5">Facebook</a></li>
+                            <li class="sky-logo"><a class="pl-lg-5">Skype</a></li>
+                        </ul>  
                     </div>
                 </div>
             </div>
@@ -75,6 +62,9 @@
     </div>
 </section>
 
+<!-- <img src="../public/images/contact/letter-45x33.svg" width="45px" height="33px"> -->
+<!-- <img src="../public/images/contact/flogo-45x45.svg" width="45px" height="45px"> -->
+<!-- <img src="../public/images/contact/flogo-45x45.svg" width="45px" height="45px"> -->
 <!-- <picture>
     <source media="(min-width: 650px)" srcset="../public/images/contact/map-242x320.png">
     <source media="(min-width: 1200px)" srcset="../public/images/contact/map-242x320.png">

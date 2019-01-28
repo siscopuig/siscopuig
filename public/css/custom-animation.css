@@ -7,7 +7,7 @@
     background: #00cae9;
     position: relative;
     transform: rotate(-45deg);
-    top: 20px;
+    top: -40px;
     left: 175px;
 }
 
@@ -34,7 +34,7 @@
     width: 14px;
     position: relative;
     left: 182px;
-    top: 30px;
+    top: -30px;
     transform: rotateX(55deg);
 }
 
