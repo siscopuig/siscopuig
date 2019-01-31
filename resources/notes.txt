@@ -22,6 +22,14 @@
     
 }
 
+palette
+
+Blue:               #2646FF
+Grey letter:        #3E3939
+Grey text:          #5D5D5D
+Black principles:   #212529
+Black footer:       #202020
+Black impressions:  #050505
 
 xs - extra small
 sm - small device

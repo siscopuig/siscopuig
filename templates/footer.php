@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="clr-black py-lg-3">
+<!-- <footer class="clr-black py-lg-3">
     <div class="container-fluid">
         <div class="row footer wht">
             <div class="col-1">
@@ -27,8 +27,45 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> -->
 <!-- End Footer -->
+<!-- footer mobile -->
+<footer class="footer-bg footer">
+    <div class="container-fluid">
+        <div class="row just-align py-5 wht">
+            <div class="col-10">
+                <a class="logo-wht"></a>
+            </div>
+            <div class="col-90">
+                <span class="title">Handcrafted by Sisco Puig</span>
+                <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
+                <nav id="sitemap" class="d-lg-block collapse" role="navigation">
+                    <ul class="footer-sitemap">
+                        <li><a data-go="home" href="" target="_blank" title="" rel="">Profile</a></li>
+                        <li><a data-go="about me" href="" target="_blank" title="" rel="">About me</a></li>
+                        <li><a data-go="contact" href="" target="_blank" title="" rel="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-12 footer-bottom">
+                <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
+                <nav class="" role="navigation">
+                    <ul id="social" class="d-lg-block collapse">
+                        <li><a href="" target="_blank" title="" rel="">Github</a></li>
+                        <li><a href="" target="_blank" title="" rel="">Facebook</a></li>
+                        <li><a href="" target="_blank" title="" rel="">Twitter</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer mobile -->
 
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->

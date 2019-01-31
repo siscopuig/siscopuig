@@ -11,7 +11,7 @@ body {
     margin: 0;
     font-size: 1rem;
     line-height: 1.5;
-    color: #212529;
+    color: #202020;
     text-align: left;
     background-color: #fff;
     font-family: 'Monserrat', sans-serif;
@@ -79,8 +79,14 @@ ul {
     position: relative;
 }
 
-.pt-5, .py-5 {
-    padding-top: 3rem !important;
+.col-0 {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.cta {
+    text-align: center;
 }
 
 .pb-3, .py-3 {
@@ -91,6 +97,17 @@ ul {
     margin-bottom: 1rem !important;
 }
 
+.pt-4,
+.pb-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+
 .mb-lg-4 {
     margin-bottom: 2rem !important;
 }
@@ -99,13 +116,25 @@ ul {
     margin-bottom: 3rem !important;
 }
 
-.py-lg-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem;
+.pt-5, .py-5 {
+    padding-top: 3rem !important;
 }
 
-/* End common */
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
 
+.py-lg-6 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.py-6 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+/* End common */
 
 /* header */
 .header {
@@ -451,33 +480,124 @@ ul {
     color: rgb(0, 0, 0);
     font-size: 0.875rem;
     font-weight: 600;
-
 }
 
 .text-4 {
     font-size: 1rem;
     font-weight: 500;
 }
-
-.col-0 {
-    flex-basis: 0;
-    flex-grow: 1;
-    max-width: 100%;
-}
-
-.py-6 {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
-}
-
-.mb-4,
-.my-4 {
-  margin-bottom: 1.5rem !important;
-}
-
-.cta {
-    text-align: center;
-}
-
 /* End lets talk */
+
+.footer-bg {
+    background-color: #202020;
+}
+
+.just-align {
+    justify-content: center;
+    align-content: center;
+}
+
+.col-05 {
+    flex: 0 0 10%;
+    background-color: #888d8f71
+}
+
+.col-90 {
+    flex: 0 0 90%;
+    line-height: 15px;
+    padding-left: 5px;
+}
+
+.logo-wht {
+    width: 21px;
+    height: 22px;
+    top: 5px;
+    position: relative;
+    display: inline-block;
+    transform: scale(0.9);
+    transform-origin: left center;
+    filter: brightness(1);
+    background: transparent url("../../public/images/logo/logo-white-21x22.svg") no-repeat scroll 0 0;
+}
+
+.title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.subline {
+    font-size: 0.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.footer h4 {
+    padding: 18px 0 18px 35px;
+    position: relative;
+    font-size: 1.175rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    /* border-bottom: 1px solid rgba(255,255,255,0.1); */
+}
+
+.footer-bottom h4 {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    line-height: 50px;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer h4:before, 
+.footer h4:after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    border-radius: 1px;
+    height: 2px;
+    background: #FFF;
+    opacity: .6;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+    transition: .3s
+}
+
+.footer h4:before {
+    transform: rotate(45deg)
+}
+
+.footer h4:after {
+    transform: rotate(-45deg)
+}
+
+.footer h4.collapsed:before {
+    transform: rotate(90deg)
+}
+
+.footer h4.collapsed:after {
+    transform: rotate(0)
+}
+
+.footer .collapse {
+    padding-left: 35px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+
 

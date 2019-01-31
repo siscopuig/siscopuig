@@ -48,4 +48,9 @@ $(document).ready(function() {
         $("body").removeClass("menu-open"),
         $(".mobile-menu").fadeOut(300).removeClass("in")
     })
+    $("[data-expand]").click(function() {
+        var t = $(this).attr("data-expand");
+        $(this).toggleClass("collapsed"),
+        $(t).slideToggle(300).toggleClass("expand")
+    })
 });
