@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="clr-black py-lg-3">
     <div class="container-fluid">
-        <div class="row footer clr-white">
+        <div class="row footer wht">
             <div class="col-1">
                 <a class="logo-white"></a>
             </div>
@@ -33,14 +33,16 @@
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 
-<!--<script async="" src="../public/js/lazysizes.min.js"></script>-->
 
-<!-- <script src="../public/js/home.js"></script> -->
+<script src="../public/js/home.js"></script>
+<!-- 
+<script src="../public/js/headroom.js"></script>
+<script src="../public/js/application.js"></script>
+<script async="" src="../public/js/lazysizes.min.js"></script>
+-->
 
-<!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/ajax.js"></script>-->
-<!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/modernizr.min.js"></script>-->
-<!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/orientation.min.js"></script>-->
-<!--<script src="--><?php //echo BASE_URL;?><!--app/public/js/home.min.js"></script>-->
+
+
 <!---->
 <!---->
 <!-- Google Analytics Please, don't copy this -->

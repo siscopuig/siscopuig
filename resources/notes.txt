@@ -1,12 +1,35 @@
 
 
-To Do
-- Change color logo to black.
-- Change nav color text to grey and when in that link change to black.
-- Change background image 'code' to something else on black and python code.
+
+# for phones
+@media (max-width: 599px) {
+
+}
+# for tablet portrait
+@media (min-width: 600px) {
+
+}
+# for tablet landscape up {
+@media (min-width: 900px) {
+
+}
+# for desktop up {
+@media (min-width: 1200px) {
+
+}
+# for big desktop up {
+@media (min-width: 1800px) {
+    
+}
 
 
-Footer
-- Change grey to black
+xs - extra small
+sm - small device
+md = medium device
+lg = large device
+lx = extra large
+
+
+http://jsfiddle.net/GustvandeWal/295jqqqb/
 
 

@@ -25,7 +25,7 @@
         <div class="container-fluid">
             <div class="row py-lg-6">
                 <div class="form-box">
-                    <h3 class="hl3-text  clr-white">Drop me a line</h2>
+                    <h3 class="hl3-text  wht">Drop me a line</h2>
                     <form class="form-style"action="http://localhost:63342/siscopuigold/app/config/mail.php" method="post">
                         <div class="form-group" id="name-group">
                             <label for="name"></label>
@@ -46,9 +46,9 @@
                 <div class="contact-box">
                     <div class="keeptouch-box mb-lg-3">
                         <h3 class="hl3-text">Keep in touch</h3>
-                        <p class="text-3 clr-white">If you want to talk about your project, or if you are interested in my availability and rates, I recommend that you contact me via Email or Skype.</p>
+                        <p class="text-3 wht">If you want to talk about your project, or if you are interested in my availability and rates, I recommend that you contact me via Email or Skype.</p>
                     </div>
-                    <div class="findme-box clr-white">
+                    <div class="findme-box wht">
                         <h3 class="hl3-text">Find me on:</h3>
                         <ul>
                             <li class="letter-logo"><a class="pl-lg-5">sisco@siscopuig.com</a></li>
