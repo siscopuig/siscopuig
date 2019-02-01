@@ -37,6 +37,21 @@ md = medium device
 lg = large device
 lx = extra large
 
+# Margins ( Browser default considered as :root {font-size:16px} )
+
+mt-0        0       rem     
+mt-1        0.25    rem
+mt-2        0.5     rem
+mt-3        1       rem     16px
+mt-4        1.5     rem
+mt-5        2       rem     32px
+mt-6        2.5     rem
+mt-7        3       rem     
+mt-8        3.5     rem     56px
+
+
+box header margin bottom        mb-5
+
 
 http://jsfiddle.net/GustvandeWal/295jqqqb/
 

@@ -4,14 +4,13 @@
 
  /* for phones */
 @media (max-width: 599px) {
-    /* .vector-code {
-        transform: scale(1.5);
-        padding-left: 15px;
-    } */
-    /* .hl2-text {
-        font-size: 2.125rem;
-        font-weight: 600;
-    } */
+    .py-4 {
+        padding-top: 4rem;
+    }
+
+    .map-box {
+        display: none !important;
+    }
 }
 
 
