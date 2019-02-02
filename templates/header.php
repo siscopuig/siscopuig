@@ -36,11 +36,8 @@
 <!-- MAIN NAVIGATION -->
 <body>
 <!-- Header nav-->
-<header>
-    <div class="header">
-        <a href="" class="header-logo" data-go="home" title="Home"></a>
-        <button class="d-md-none mobile-menu-button" aria-label="Menu"><span></span></button>
-    </div>
+<header class="header">
+    <a href="" class="header-logo" data-go="home" title="Home"></a>        
     <nav class="d-none d-md-block" role="navigation">
         <ul class="header-nav">
             <li><a class="active view-home" data-go="home" href="#">Profile</a></li>
@@ -49,6 +46,7 @@
             <li><a class="view-contact" data-go="contact" href="#">Contact</a></li>
         </ul>
     </nav>
+    <button class="d-md-none mobile-menu-button" aria-label="Menu"><span></span></button>
 </header>
 <!-- End Header nav-->
 <!-- mobile menu -->
