@@ -4,6 +4,7 @@
 
  /* for phones */
 @media (max-width: 599px) {
+
     .py-4 {
         padding-top: 4rem;
     }
@@ -11,31 +12,66 @@
     .map-box {
         display: none !important;
     }
+
+
+    
 }
 
 @media (min-width: 600px) {
 
-    /* header */
-    .d-md-none {
+    .d-none {
         display: none !important;
     }
-    .d-md-block {
-        display: block !important;
-    }
+
     .header {
         height: 80px;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
     .header-logo {
         transform: scale(1);
     }
+
     .header-nav a {
         font-size: 1rem;
         color: #5D5D5D;
     }
 
-    /* poster */
+    .col-12 {
+        display: flex;
+        align-items: center;
+    }
+
+    .img-box {
+        transform:scale(0.5);
+        transform-origin: top left;
+        float: left;
+        margin: 0 -70px -60px 0;
+    }
+
+    .poster-txt-box h3 {
+        text-align: left;
+    }
+
+    .poster-txt-box p {
+        color: #5D5D5D;
+        line-height: 1.4em
+    }
+}
+
+/* @media (min-width: 768px) {
+    .d-md-none {
+        display:none !important
+    }
+
+    .d-md-block {
+        display: block !important
+    }
+} */
+
+/* @media (min-width: 800px) {
+    
     .poster-bg {
         width: 100%;
         background-image: linear-gradient(to right, rgba(193, 193, 193 ,1), rgba(70, 68, 68, 1));
@@ -47,37 +83,31 @@
     }
 
     .poster-home {
+        height: calc(100vh - 150px);
+        min-height: 760px;
+        max-height: 1000px;
+    }
 
-        /* height: 600px; */
-        min-height: 300px;
-        max-height: 600px;
-        /* height: calc(100vh - 150px); */
-        /* min-height: 300px;
-        min-width: 500px; */
+    .poster-home h1 {
+        color: #FFFFFF;
+    }
+
+    .poster-home p{
+        color: #FFFFFF;
     }
 
     .col-md-7 {
-        flex: 0 0 50%;
-        max-width: 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
-    .poster-home-image {
-        /* flex: 1; */
-        flex: 0 0 65%; 
-        width: 65%;
+    .poster-img-box {
+        position: absolute;
+        left: 50vw;
     }
 
     .justify-content-md-center {
         justify-content: center !important
-    }
-}
-
-/* @media (min-width: 1024px) {
-    .poster-home {
-        min-height: 760px
-    }
-    .poster-home-image {
-        left: 40vw
     }
 } */
 

@@ -54,3 +54,14 @@ $(document).ready(function() {
         $(t).slideToggle(300).toggleClass("expand")
     })
 });
+
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);

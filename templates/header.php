@@ -37,7 +37,7 @@
 <body>
 <!-- Header nav-->
 <header class="header">
-    <a href="" class="header-logo" data-go="home" title="Home"></a>        
+    <a href="#" class="header-logo" data-go="home" title="Home"></a>        
     <nav class="d-none d-md-block" role="navigation">
         <ul class="header-nav">
             <li><a class="active view-home" data-go="home" href="#">Profile</a></li>

@@ -1,3 +1,11 @@
+
+/* For debugging purposes */
+/* * {
+    outline: 1px solid red;
+    opacity: 1 !important; 
+    visibility: visible !important;
+} */
+
 *::before, *::after {
     box-sizing: border-box;
 }
@@ -17,6 +25,14 @@ body {
     font-family: 'Monserrat', sans-serif;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.0625em;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body.menu-open {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
 }
   
 h1, h2, h3, h4 {
@@ -96,6 +112,15 @@ ul {
     align-items: center !important;
 }
 
+.justify-content-between {
+    /*
+    The justify-content property aligns the flexible container's 
+    items when the items do not use all available space on the 
+    main-axis (horizontally).
+    */
+    justify-content: space-between !important;
+}
+
 .txt-al-le {
     text-align: left;
 }
@@ -113,9 +138,8 @@ ul {
 }
 
 .container-fluid {
-    /* width: 100%; */
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
     margin-right: auto;
     margin-left: auto;
     max-width: 1800px;
@@ -126,11 +150,12 @@ ul {
     flex-wrap: wrap;
 }
 
-.col-12 {
-    flex: 0 0 100%;
-    width: 100%;
-    max-width: 100%;
-    position: relative;
+.flex-column {
+    flex-direction: column !important;
+}
+
+.flex-grow {
+    flex: 1; 
 }
 
 .col-0 {
@@ -138,6 +163,18 @@ ul {
     flex-grow: 1;
     max-width: 100%;
 }
+
+.col-12 {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    min-height: 1px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+
 
 .cta {
     text-align: center;
@@ -247,7 +284,6 @@ ul {
 
 /* header */
 .header {
-    /* width: 100%; */
     height: 60px;
     padding-left: 15px;
     padding-right: 15px;
@@ -458,6 +494,10 @@ ul {
     position: relative;
 }
 
+.poster-home .container-fluid {
+    z-index: 1
+}
+
 .poster-home h1 {
     /* font-size: calc(100vw / 22); */
     font-size: 1.75rem;
@@ -501,12 +541,25 @@ img.lazyfade.lazyloaded {
 /* End poster */
 
 /* widw */
+.img-box {
+    transform: scale(0.5);
+    /* transform-origin: top left;
+    margin-bottom: -50px; */
+    margin: 0 auto 15px auto;
+    width: 220px;
+    height: 160px;
+    position: relative;
+}
+
+.widw h2 {
+    text-align: center;
+}
 
 .widw h3 {
     color: #2646FF;
-    text-align: center;
     font-size: 1.225rem;
     font-weight: 500;
+    text-align: center;
 }
 
 .widw p {
