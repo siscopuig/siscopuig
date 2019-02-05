@@ -150,6 +150,11 @@ ul {
     flex-wrap: wrap;
 }
 
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .flex-column {
     flex-direction: column !important;
 }
@@ -287,7 +292,24 @@ ul {
     height: 60px;
     padding-left: 15px;
     padding-right: 15px;
-    background: #FFFFFF;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 100%;
+}
+
+.mobile-menu-header {
+    height: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* margin-right: 1.5625rem; */
 }
 
 .header-logo {
@@ -321,19 +343,6 @@ ul {
 
 .header-nav a.active {
     color: #000000;
-}
-
-.mobile-menu {
-    display: none;
-    position: fixed;
-    background: #000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    height: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .mobile-menu-button {
@@ -427,13 +436,8 @@ ul {
     transform: rotate(45deg);
   }
   
-  .mobile-menu-close:hover {
+.mobile-menu-close:hover {
     transform: scale(1.15);
-  }
-  
-.mobile-menu-header {
-    height: 60px;
-    margin-right: 1.5625rem;
 }
   
 .mobile-menu-navigation {
@@ -441,6 +445,7 @@ ul {
     position: absolute;
     bottom: 0;
     margin: 0;
+    padding-left: 15px;
     font-size: 1.825rem;
 }
   
@@ -483,7 +488,6 @@ ul {
 }
 
 /* poster */
-
 .break-out {
     width: 100vw;
     position: relative;
@@ -499,9 +503,10 @@ ul {
 }
 
 .poster-home h1 {
-    /* font-size: calc(100vw / 22); */
-    font-size: 1.75rem;
+    font-size: calc(100vw / 25);
+    /* font-size: 1.75rem; */
     font-weight: 500;
+    letter-spacing: -0.026em;
     color: #2646FF;
 }
 
@@ -509,14 +514,18 @@ ul {
     display: block;
 }
 
-.poster-home-image {
+.poster-txt-box {
+    flex: 0 0 50%;
+}
+
+.poster-img-box {
     position: absolute;
     right: 0;
     height: 100%;
     top: 0;
 }
 
-.poster-home-image img {
+.poster-img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -536,12 +545,19 @@ img.lazyfade.lazyloaded {
     opacity: 1;
     transform: translateY(0);
 }
-
-
 /* End poster */
 
 /* widw */
-.img-box {
+.sp-parent {
+    align-items: center;
+    justify-content: center;
+}
+
+.sp-parent h2 {
+    text-align: center;
+}
+
+.sp-img-box {
     transform: scale(0.5);
     /* transform-origin: top left;
     margin-bottom: -50px; */
@@ -551,51 +567,17 @@ img.lazyfade.lazyloaded {
     position: relative;
 }
 
-.widw h2 {
-    text-align: center;
-}
-
-.widw h3 {
+.sp-txt-box h3 {
     color: #2646FF;
     font-size: 1.225rem;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 
-.widw p {
+.sp-txt-box p {
     font-size: 1.25rem;
     color: #5D5D5D;
     letter-spacing: 0.05em;
-}
-
-.vector-code {
-    /* border: 1px solid #2646FF; */
-    width: 150px;
-    height: 130px;
-    margin: 0 auto 15px auto;
-    transform: scale(1);
-    background-image: url("../../public/images/widw/code-150x130.svg");
-}
-.vector-data {
-    width: 150px;
-    height: 130px;
-    margin: 0 auto 15px auto;
-    transform: scale(1);
-    background-image: url("../../public/images/widw/database-150x130.svg");
-}
-.vector-deployment {
-    width: 150px;
-    height: 130px;
-    margin: 0 auto 15px auto;
-    transform: scale(1);
-    background-image: url("../../public/images/widw/deployment-150x130.svg");
-}
-.vector-environment {
-    width: 150px;
-    height: 130px;
-    margin: 0 auto 15px auto;
-    transform: scale(1);
-    background-image: url("../../public/images/widw/environment-150x130.svg");
 }
 /* End widw */
 
@@ -619,9 +601,23 @@ img.lazyfade.lazyloaded {
 /* End principles */
 
 /* about me */
-.aboutme{
+.col-1 {
+    flex: 0 0 100%;
+}
+
+.aboutme {
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme h2 {
     text-align: center;
 }
+
+.col-1 {
+    flex: 1;
+}
+
 
 .impressions {
     font-size: 1.25rem;
@@ -686,6 +682,7 @@ img.lazyfade.lazyloaded {
 }
 /* End lets talk */
 
+
 /* contact */
 .contact-bt-bg {
     /* BLue talk #2646FF */
@@ -712,7 +709,6 @@ img.lazyfade.lazyloaded {
     color: #ffffff;
 	/* font-family: 'Open Sans',sans-serif !important; */
 }
-
 
 .findme-box a:link {
     color: #ffffff;

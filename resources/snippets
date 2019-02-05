@@ -15,3 +15,33 @@
         </button>
     </header>
 </div> -->
+
+.vector-code {
+    /* border: 1px solid #2646FF; */
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/code-150x130.svg");
+}
+.vector-data {
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/database-150x130.svg");
+}
+.vector-deployment {
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/deployment-150x130.svg");
+}
+.vector-environment {
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/environment-150x130.svg");
+}

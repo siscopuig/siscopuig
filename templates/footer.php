@@ -41,8 +41,8 @@
                 <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
+        <div class="flex-column">
+            <div class="col-1">
                 <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
                 <nav id="sitemap" class="d-lg-block collapse" role="navigation">
                     <ul class="footer-sitemap">
@@ -52,7 +52,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-12 footer-bottom">
+            <div class="col-1 footer-bottom">
                 <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
                 <nav class="" role="navigation">
                     <ul id="social" class="d-lg-block collapse">
