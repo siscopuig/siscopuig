@@ -1,5 +1,11 @@
 
 
+########################
+
+- CSS values declared gets overwritten !important
+
+########################
+
 
 # for phones
 @media (max-width: 599px) {
@@ -20,6 +26,21 @@
 # for big desktop up {
 @media (min-width: 1800px) {
     
+}
+
+@media (max-width: 599px) {
+}
+
+@media (min-width: 599px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1400px) {
 }
 
 palette
@@ -59,6 +80,25 @@ http://jsfiddle.net/GustvandeWal/295jqqqb/
 
 # Fucking horizontal overflow
 https://css-tricks.com/findingfixing-unintended-body-overflow/
+
+
+# PX VS REM
+https://engageinteractive.co.uk/blog/em-vs-rem-vs-px
+
+changes the root HTML font-size depending on screen size
+
+- Set the root HTML font-size as a percentage. 
+- Set the HTML font-size to 62.5% (62.5% of 16px is 10px) That would still make 1.6rem = 16px. 
+- We use 6 decimal places because certain browsers show no difference between 2-5.d.p.
+
+
+
+
+
+
+
+
+
 
 
 The z-index property specifies the stack order of an element.

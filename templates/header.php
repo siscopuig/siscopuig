@@ -10,7 +10,8 @@
     <!-- css files -->
     <link href="../public/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../public/css/styles.css" rel="stylesheet" type="text/css">
-    <link href="../public/css/queries.css" rel="stylesheet" type="text/css">
+    <!-- <link href="../public/css/spacing.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="../public/css/queries.css" rel="stylesheet" type="text/css"> -->
 
     <!-- <link href="../public/css/main-panel.css" rel="stylesheet" type="text/css">
     <!-- <link href="../public/css/custom-animation.css" rel="stylesheet" type="text/css"> -->
