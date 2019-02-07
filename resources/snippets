@@ -160,3 +160,7 @@
     transform: scale(1);
     background-image: url("../../public/images/widw/environment-150x130.svg");
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 414px) {
+    
+}

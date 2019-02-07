@@ -3,19 +3,19 @@
 <div class="container-fluid">
     <section>
         <div class="container-fluid">
-            <div class="break-out d-flex align-items-center poster-home poster poster-bg pt-5 py-7">
+            <div class="break-out d-flex align-items-center poster-home poster poster-bg py-3 py-7">
                 <div class="container-fluid d-flex flex-column justify-content-between">
                     <div class="row align-items-center flex-grow">
                         <div class="poster-txt-box col-md-7">
-                            <h1 class="poster-h1-text mb-5">
+                            <h1 class="poster-h1-text mb-1">
                                 <span class="h1-name">Sisco Puig</span>
                                 <span class="h1-title">Web Developer</span>
                             </h1>
-                            <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         </div>
                     </div>
                 </div>
-                <div class="poster-img-box d-none d-md-block">
+                <div class="poster-img-box d-md-block">
                     <img class="lazyfade lazyloaded" alt=""
                     data-srcset="../public/images/poster/laptop-3000x1740.png 3000w,
                     ../public/images/poster/laptop-2000x1160.png 2000w,
