@@ -1,48 +1,17 @@
-<!-- Footer -->
-<!-- <footer class="clr-black py-lg-3">
+
+<footer class="break-out footer-bg footer wht">
     <div class="container-fluid">
-        <div class="row footer wht">
-            <div class="col-1">
-                <a class="logo-white"></a>
+        <div class="row">
+            <div class="d-flex align-items-center footer-author py-2">
+                <div class="col-small">
+                    <a class="logo-wht" href="#"></a>
+                </div>
+                <div class="col-large">
+                    <span class="title">Handcrafted by Sisco Puig</span>
+                    <span class="subline">©Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
+                </div>
             </div>
-            <div class="col-4">
-                <span class="title">Handcrafted by Sisco Puig</span>
-                <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
-            </div>
-            <div class="col-2">
-                <nav class="" role="navigation">
-                    <ul>
-                        <li>Profile</li>
-                        <li>About me</li>
-                        <li>Contact</li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-2">
-                <ul>
-                    <li>Github</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer> -->
-<!-- End Footer -->
-<!-- footer mobile -->
-<footer class="footer-bg footer">
-    <div class="container-fluid">
-        <div class="row just-align py-5 wht">
-            <div class="col-10">
-                <a class="logo-wht"></a>
-            </div>
-            <div class="col-90">
-                <span class="title">Handcrafted by Sisco Puig</span>
-                <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
-            </div>
-        </div>
-        <div class="flex-column">
-            <div class="col-1">
+            <div class="col-12">
                 <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
                 <nav id="sitemap" class="d-lg-block collapse" role="navigation">
                     <ul class="footer-sitemap">
@@ -52,7 +21,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-1 footer-bottom">
+            <div class="col-12 footer-bottom">
                 <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
                 <nav class="" role="navigation">
                     <ul id="social" class="d-lg-block collapse">
@@ -65,12 +34,11 @@
         </div>
     </div>
 </footer>
-<!-- end footer mobile -->
+
+
 
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-
-
 <script src="../public/js/home.js"></script>
 <!-- 
 <script src="../public/js/headroom.js"></script>

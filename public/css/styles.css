@@ -1,10 +1,10 @@
 
 /* For debugging purposes */
-* {
+/* * {
     outline: 1px solid red;
     opacity: 1 !important; 
     visibility: visible !important;
-}
+} */
 
 *,
 *:before,
@@ -75,13 +75,13 @@ ul {
 }
 
 .hl2-text {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 4rem;
+    font-weight: 500;
     letter-spacing: -0.026em;
 }
 
 .hl3-text {
-    font-size: 1.775rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
@@ -145,8 +145,8 @@ ul {
 
 .container-fluid {
     width: 100%;
-    /* padding-right: 15px;
-    padding-left: 15px; */
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -417,6 +417,10 @@ transform: rotate(45deg);
     position: relative;
 }
 
+.poster-bg {
+    background-image: linear-gradient(to right, rgba(193, 193, 193 ,1), rgba(70, 68, 68, 1));
+}
+
 .poster {
     overflow: hidden;
 }
@@ -426,11 +430,22 @@ transform: rotate(45deg);
 }
 
 .poster-home h1 {
-    font-size: calc(100vw / 25);
-    /* font-size: 1.75rem; */
     font-weight: 500;
     letter-spacing: -0.026em;
-    color: #2646FF;
+    color: rgb(87, 98, 158);
+}
+
+.h1-name {
+    font-size: 2rem;
+}
+
+.h1-title {
+    font-size: 3rem;
+}
+
+.poster-home p {
+    font-size: calc(100vw / 18);
+    color: #5D5D5D;
 }
 
 .poster-home span {
@@ -577,30 +592,31 @@ img.lazyfade.lazyloaded {
 /* lets talk */
 .talk-bg {
     background: #2646FF;
+    overflow: hidden;
 }
 
-.talk-subline {
+.talk-content h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.talk-content span {
+    /* color: #000000; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: -0.026em;
+}
+
+.talk-content a {
+    font-size: 1rem;
+    letter-spacing: -0.026em;
     color: #FFFFFF;
-    margin-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .talk-content span {
     display: block;
 }
 
-.talk-content span a {
-    color: #000000;
-    /* font-size: 0.875rem; */
-    font-weight: 600;
-    letter-spacing: -0.026em;
-}
-
-.text-4 {
-    font-size: 1.115rem;
-    font-weight: 500;
-}
 /* End lets talk */
 
 
@@ -948,29 +964,31 @@ textarea.form-control:focus {
     background-color: #202020;
 }
 
-.just-align {
-    justify-content: center;
-    align-content: center;
+.footer-author {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: rgb(20, 19, 19); */
 }
 
-.col-05 {
-    flex: 0 0 10%;
-    background-color: #888d8f71
+.col-small {
+    flex: 0 0 5%;
+    width: 5%;
+    /* background-color: #888d8f71 */
 }
 
-.col-90 {
-    flex: 0 0 90%;
-    line-height: 15px;
-    padding-left: 5px;
+.col-large {
+    flex: 0 0 95%;
+    width: 95%;
+    line-height: 1em;
 }
 
 .logo-wht {
     width: 21px;
     height: 22px;
-    top: 5px;
     position: relative;
     display: inline-block;
-    transform: scale(0.9);
+    transform: scale(1);
     transform-origin: left center;
     filter: brightness(1);
     background: transparent url("../../public/images/logo/logo-white-21x22.svg") no-repeat scroll 0 0;
@@ -980,13 +998,15 @@ textarea.form-control:focus {
     display: block;
     font-size: 16px;
     font-weight: 500;
-    /* letter-spacing: 0.1em; */
+    transform-origin: right;
+    padding-left: 5%;
 }
 
 .subline {
     font-size: 0.5rem;
     font-weight: 500;
     letter-spacing: 0.1em;
+    padding-left: 5%;
 }
 
 .footer h4 {
@@ -1056,10 +1076,7 @@ textarea.form-control:focus {
 /* footer */
 
 /* Media queries */
-
-
-
-@media (max-width: 599px) {
+@media (max-width: 575px) {
 
     html {
         font-size: 14px;
@@ -1073,6 +1090,14 @@ textarea.form-control:focus {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    .talk-content-lg {
+        display: none;
+    }
+
+    /* .col-large {
+        padding-left: 0;
+    } */
 }
 
 @media (min-width: 576px) {
@@ -1107,7 +1132,8 @@ textarea.form-control:focus {
     }
 
     .poster-bg {
-        background-image: linear-gradient(to right, rgba(193, 193, 193 ,1), rgba(70, 68, 68, 1));
+        background-image: linear-gradient(to right, rgba(193, 193, 193 ,1),
+         rgba(70, 68, 68, 1));
     }
 
     .poster-home {
@@ -1146,6 +1172,10 @@ textarea.form-control:focus {
     .col-md-6 {
         flex: 0 0 50%;
         width: 50%;
+    }
+
+    .talk-content-sm {
+        display: none;
     }
 }
 
