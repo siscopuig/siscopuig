@@ -45,7 +45,7 @@
 
 palette
 
-Blue:               #2646FF
+Blue:                   #2646FF
 Blue header poster sm   #7a8df3
 Blue header poster lg   #1a214a
 Grey text poster        #bfbfbf
