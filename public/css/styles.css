@@ -1,10 +1,10 @@
 
 /* For debugging purposes */
-/* * {
+* {
     outline: 1px solid red;
     opacity: 1 !important; 
     visibility: visible !important;
-} */
+}
 
 *,
 *:before,
@@ -76,7 +76,7 @@ ul {
 
 .hl2-text {
     font-size: 3.25rem;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.026em;
 }
 
@@ -311,6 +311,12 @@ ul {
 @media (min-width: 768px) {
     .header-logo {
         transform: scale(0.8);
+    }
+}
+
+@media (min-width: 1400px) {
+    .header-logo {
+        transform: scale(1);
     }
 }
 
@@ -607,15 +613,9 @@ img.lazyfade.lazyloaded {
         height: calc(100vh - 150px); */
     }
 }
-
 /* End poster */
 
 /* service spectrum */
-.sp-parent {
-    align-items: center;
-    justify-content: center;
-}
-
 .sp-parent h2 {
     text-align: center;
 }
@@ -651,7 +651,57 @@ img.lazyfade.lazyloaded {
 }
 
 @media (min-width: 768px) {
+
+    .service-spectrum h2 {
+        text-align: left;
+    }
+
+    .sp-img-box {
+        float: left;
+        transform: scale(0.6);
+        transform-origin: left;
+    }
+
+    .service-spectrum h3 {
+        font-size: 1.775rem;
+        text-align: left;
+    }
 }
+
+@media (min-width: 1024px) {
+    .col-2 {
+        flex: 0 0 50%;
+        width: 50%;
+    }
+
+    .sp-img-box {
+        float: none;
+        transform-origin: center;
+    }
+
+    .sp-txt-box {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .sp-txt-box h3 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .col-lg-4 {
+        flex: 0 0 25%;
+        width: 25%;
+    }
+
+    /* .sp-img-box {
+        transform: scale(1);
+    } */
+}
+
+
 
 /* End service spectrum */
 
@@ -681,22 +731,12 @@ img.lazyfade.lazyloaded {
     flex: 0 0 100%;
 }
 
-.aboutme {
-    align-items: center;
-    justify-content: center;
-}
-
-.aboutme h2 {
-    text-align: center;
-}
-
 .col-1 {
     flex: 1;
 }
 
-
 .impressions {
-    font-size: 1.25rem;
+    font-size: 1.775rem;
 	opacity: 0;
     width: 100%;
     font-family: 'Poiret One', cursive;
@@ -707,7 +747,7 @@ img.lazyfade.lazyloaded {
 }
 
 .impressions-fader {
-    height: 60px;
+    height: 100px;
     z-index: 3;
     position: relative;
 }
@@ -724,8 +764,18 @@ img.lazyfade.lazyloaded {
     visibility: hidden;
 }
 
-.present-box p {
-    font-size: 1.115rem;
+@media (min-width: 768px) {
+    .aboutme p {
+        padding-left: 5%;
+        padding-right: 5%;
+        column-count: 2;
+        column-gap: 5%;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1024px) {
+
 }
 /* End about me */
 
@@ -736,8 +786,8 @@ img.lazyfade.lazyloaded {
 }
 
 .talk-content h2 {
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 3.25rem;
+    font-weight: 600;
 }
 
 .talk-content span {
@@ -749,12 +799,19 @@ img.lazyfade.lazyloaded {
 
 .talk-content a {
     font-size: 1rem;
+    font-weight: 600;
     letter-spacing: -0.026em;
     color: #FFFFFF;
 }
 
 .talk-content span {
     display: block;
+}
+
+@media (min-width: 768px) {
+    .talk-content span {
+        font-size: 1.675rem;
+    }
 }
 
 /* End lets talk */
@@ -1234,12 +1291,6 @@ textarea.form-control:focus {
     .talk-content-lg {
         display: none;
     }
-
-
-
-    /* .col-large {
-        padding-left: 0;
-    } */
 }
 
 @media (min-width: 576px) {
@@ -1262,22 +1313,6 @@ textarea.form-control:focus {
 
     .d-md-block {
         display: block !important
-    }
-
-
-    .sp-parent h2 {
-        text-align: left;
-    }
-
-    .sp-img-box {
-        float: left;
-        transform: scale(0.6);
-        transform-origin: left;
-    }
-
-    .service-spectrum h3 {
-        font-size: 1.775rem;
-        text-align: left;
     }
 
     .col-md-6 {
@@ -1304,6 +1339,7 @@ textarea.form-control:focus {
 }
 
 /* spacing */
+
 .mt-1,
 .my-1 {
     margin-top: 20px !important;
@@ -1314,9 +1350,9 @@ textarea.form-control:focus {
     margin-bottom: 20px !important;
 }
 
-.mt-2 {
+/* .mt-2 {
     margin-top: 40px !important;
-}
+} */
 
 .mb-2 {
     margin-bottom: 40px !important;
@@ -1380,16 +1416,9 @@ textarea.form-control:focus {
     padding-bottom: 120px !important;
 }
 
-/* spacing queries */
-
+/* Spacing queries */
 @media (max-width: 575px) {
-    .mb-1 {
-        margin-bottom: 20px !important;
-    }
 
-    .mt-2 {
-        margin-top: 20px !important;
-    }
 }
 
 @media (min-width: 576px) {
@@ -1401,6 +1430,10 @@ textarea.form-control:focus {
         margin-bottom: 60px !important
     }
 
+    .mb-md-4 {
+        margin-bottom: 80px !important
+    }
+
     .py-md-5 {
         padding-top: 100px !important;
     }
@@ -1408,12 +1441,30 @@ textarea.form-control:focus {
     .py-md-5 {
         padding-bottom: 100px !important;
     }
+
+    .mb-md-2 {
+        margin-bottom: 40px !important;
+    }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+    .mt-0 {
+        margin-top: 0 !important;
+    }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
+    .mt-2 {
+        margin-bottom: 0 !important;
+    }
+
+    .py-lg-7 {
+        padding-top: 140px !important;
+    }
+
+    .py-lg-7 {
+        padding-bottom: 140px !important;
+    }
 }
 
 
