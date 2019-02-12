@@ -1,19 +1,18 @@
 
-<footer class="break-out footer-bg footer wht">
+<footer class="break-out footer-bg footer wht py-3">
     <div class="container-fluid">
         <div class="row">
-            <div class="d-flex align-items-center footer-author py-2">
-                <div class="col-small">
-                    <a class="logo-wht" href="#"></a>
+            <div class="col-12 col-align-vertically mb-3 mt-0 mb-0">
+                <div class="footer-mark-logo">
                 </div>
-                <div class="col-large">
+                <div class="footer-mark">
                     <span class="title">Handcrafted by Sisco Puig</span>
                     <span class="subline">©Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 col-lg-3">
                 <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
-                <nav id="sitemap" class="d-lg-block collapse" role="navigation">
+                <nav id="sitemap" class="d-lg-block collapse pb-0" role="navigation">
                     <ul class="footer-sitemap">
                         <li><a data-go="home" href="" target="_blank" title="" rel="">Profile</a></li>
                         <li><a data-go="about me" href="" target="_blank" title="" rel="">About me</a></li>
@@ -21,7 +20,7 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-12 footer-bottom">
+            <div class="col-12 col-lg-3 footer-bottom">
                 <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
                 <nav class="" role="navigation">
                     <ul id="social" class="d-lg-block collapse">

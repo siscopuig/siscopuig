@@ -7,9 +7,9 @@
                 <div class="container-fluid d-flex flex-column justify-content-between">
                     <div class="row align-items-center flex-grow">
                         <div class="poster-txt-box col-12 col-md-7 col-lg-6">
-                            <h1 class="poster-h1-text mb-1">
-                                <span class="h1-name">Sisco Puig</span>
-                                <span class="h1-title">Web Developer</span>
+                            <h1 class="mb-1">
+                                <span class="name">Sisco Puig</span>
+                                <span class="title">Web Developer</span>
                             </h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         </div>
@@ -84,43 +84,45 @@
     </section>
     <!-- End Service spectrum -->
     <!-- Principles -->
-    <section class="break-out principles-bg">
-        <div class="container-fluid">
-            <div class="row principles py-3 py-md-5 py-lg-7"> <!-- Adjust padding, margins here -->
-                <div class="col-12 col-lg-3 mb-2">
-                    <h2 class="hl2-text wht mb-5">Principles</h2>
-                </div>
-                <div class="col-12 col-lg-9">
-                    <div class="row">
-                        <div class="col-12 col-md-6 mb-3">
-                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                pulvinar lorem et nibh egestas congue.</p>
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+    <section>
+        <div class="break-out principles-bg">
+            <div class="container-fluid">
+                <div class="row principles py-3 py-md-5 py-lg-7"> <!-- Adjust padding, margins here -->
+                    <div class="col-12 col-lg-3 mb-2">
+                        <h2 class="hl2-text wht mb-5">Principles</h2>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="row">
+                            <div class="col-12 col-md-6 mb-3">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                     pulvinar lorem et nibh egestas congue.</p>
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                pulvinar lorem et nibh egestas congue.</p>
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                pulvinar lorem et nibh egestas congue.</p>
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                                        pulvinar lorem et nibh egestas congue.</p>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                     pulvinar lorem et nibh egestas congue.</p>
-                        </div>
-                        <div class="col-12 col-md-6 mb-3">
-                            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                pulvinar lorem et nibh egestas congue.</p>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                                    pulvinar lorem et nibh egestas congue.</p>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                                        pulvinar lorem et nibh egestas congue.</p>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                                    pulvinar lorem et nibh egestas congue.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,52 +131,59 @@
     </section>
     <!-- End Principles -->
     <!-- About me -->
-    <section class="break-out">
-        <div class="flex-column py-3 py-md-5 py-lg-7 aboutme">
-            <div class="col-1 txt-al-ce mb-5">
-                <picture>
-                    <source media="(min-width: 1200px)" srcset="../public/images/profile-300x300.jpeg">
-                    <source media="(min-width: 768px)" srcset="../public/images/profile-150x150.jpeg">
-                    <source media="(min-width: 465px)" srcset="../public/images/profile-100x100.jpeg">
-                    <source media="(max-width: 464px)" srcset="../public/images/profile-65x65.jpeg">
-                    <img src="../public/images/profile-100x100.jpeg" style="width:auto;">                    
-                </picture>
-            </div>
-            <div class="col-1 txt-al-ce mt-2 mb-5">
-                <h2 class="hl2-text">Who is this guy?</h3>
-            </div>
-            <div class="col-1 mb-6 mt-2">
-                <div class="impressions-fader">
-                    <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
-                    <span class="impressions second hidden" style="opacity: 0;">I transform my thoughts into reality.</span>
-                    <span class="impressions third hidden" style="opacity: 0;">I ride my bike whatever I go.</span>
-                    <span class="impressions last hidden" style="opacity: 0;">I enjoy great music and I love science fiction.</span>
+    <section>
+        <div class="break-out">
+            <div class="container-fluid">
+                <div class="flex-column py-3 py-md-5 py-lg-7 aboutme">
+                    <div class="col-1 txt-al-ce mb-5">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="../public/images/profile-300x300.jpeg">
+                            <source media="(min-width: 768px)" srcset="../public/images/profile-150x150.jpeg">
+                            <source media="(min-width: 465px)" srcset="../public/images/profile-100x100.jpeg">
+                            <source media="(max-width: 464px)" srcset="../public/images/profile-65x65.jpeg">
+                            <img src="../public/images/profile-100x100.jpeg" style="width:auto;">                    
+                        </picture>
+                    </div>
+                    <div class="col-1 txt-al-ce mt-2 mb-5">
+                        <h2 class="hl2-text">Who is this guy?</h3>
+                    </div>
+                    <div class="col-1 mb-6 mt-2">
+                        <div class="impressions-fader">
+                            <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
+                            <span class="impressions second hidden" style="opacity: 0;">I transform my thoughts into reality.</span>
+                            <span class="impressions third hidden" style="opacity: 0;">I ride my bike whatever I go.</span>
+                            <span class="impressions last hidden" style="opacity: 0;">I enjoy great music and I love science fiction.</span>
+                        </div>
+                    </div>
+                    <div class="col-1 mt-1">
+                        <p class="text-1">As a student of Web Technologies I am able to work in various web related roles, I have a wide range of
+                        skills; front end development, design, and back end development. I would like take on back end development
+                        projects now but I am open to front end as well. As a student I have little or not experience in
+                        production development, but I am able to work on a project with the full scope in mind.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-1 mt-1">
-                <p class="text-1">As a student of Web Technologies I am able to work in various web related roles, I have a wide range of
-                skills; front end development, design, and back end development. I would like take on back end development
-                projects now but I am open to front end as well. As a student I have little or not experience in
-                production development, but I am able to work on a project with the full scope in mind.
-                </p>
-            </div>
         </div>
+        
     </section>
     <!-- End about me -->
     <!-- Let's talk -->
     <section>
         <div class="break-out talk-bg">
-            <div class="row">
-                <div class="talk-content col-0 cta wht py-3 py-md-5 py-lg-7">
-                    <h2 class="mb-1 mb-md-3">Ready to get started?</h2>
-                    <div class="talk-content-sm pt-1">
-                        <span>You know about me,</span>
-                        <span>let’s talk about you.</span>    
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="talk-content col-0 cta wht py-3 py-md-5 py-lg-7">
+                        <h2 class="mb-1 mb-md-3">Ready to get started?</h2>
+                        <div class="talk-content-sm pt-1">
+                            <span>You know about me,</span>
+                            <span>let’s talk about you.</span>    
+                        </div>
+                        <div class="talk-content-lg mb-4 mb-md-3">
+                            <span>You know about me, let’s talk about you.</span>
+                        </div>
+                        <span class="pt-3"><a href="#">Send me a message</a></span>
                     </div>
-                    <div class="talk-content-lg mb-4 mb-md-3">
-                        <span>You know about me, let’s talk about you.</span>
-                    </div>
-                    <span class="pt-3"><a href="#">Send me a message</a></span>
                 </div>
             </div>
         </div>
