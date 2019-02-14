@@ -137,7 +137,7 @@
                 <div class="flex-column py-3 py-md-5 py-lg-7 aboutme">
                     <div class="col-1 txt-al-ce mb-5">
                         <picture>
-                            <source media="(min-width: 1200px)" srcset="../public/images/profile-300x300.jpeg">
+                            <!-- <source media="(min-width: 1200px)" srcset="../public/images/profile-300x300.jpeg"> -->
                             <source media="(min-width: 768px)" srcset="../public/images/profile-150x150.jpeg">
                             <source media="(min-width: 465px)" srcset="../public/images/profile-100x100.jpeg">
                             <source media="(max-width: 464px)" srcset="../public/images/profile-65x65.jpeg">
