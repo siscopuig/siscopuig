@@ -2,7 +2,7 @@
 <section>
     <!-- top -->
     <div class="container-fluid">
-        <div class="row align-items-center py-2 pt-md-3">
+        <div class="row align-items-center py-3 py-md-5 py-lg-7">
             <div class="col-12 col-md-2 col-2">
                 <h2 class="hl2-text txt-al-le mb-2">Contact</h2>
                 <p class="text-1 mb-1 mb-md-2">Lorem ipsum dolor sit amet, timeam epicurei constituto est at, suas mutat
@@ -61,7 +61,7 @@
                         </div>
                         <div class="col-md-2 col-lg-2">
                             <div class="findme-box pt-3 wht">
-                                <h3 class="hl4-text mb-1">Find me on:</h3>
+                                <h3 class="hl4-text">Find me on:</h3>
                                 <div class="contact-logo">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                         style="isolation:isolate" viewBox="1066 1112 45 33" width="45" height="33">

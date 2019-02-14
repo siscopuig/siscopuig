@@ -6,7 +6,7 @@
             <div class="break-out d-flex align-items-center poster-home poster poster-bg py-3 py-7">
                 <div class="container-fluid d-flex flex-column justify-content-between">
                     <div class="row align-items-center flex-grow">
-                        <div class="poster-txt-box col-12 col-md-7 col-lg-6">
+                        <div class="col-12 col-md-7 col-lg-6">
                             <h1 class="mb-1">
                                 <span class="name">Sisco Puig</span>
                                 <span class="title">Web Developer</span>
@@ -17,18 +17,13 @@
                 </div>
                 <div class="poster-img-box d-md-block">
                     <img class="lazyfade lazyloaded" alt=""
-                    data-srcset="../public/images/poster/laptop-3000x1740.png 3000w,
-                    ../public/images/poster/laptop-2000x1160.png 2000w,
-                    ../public/images/poster/laptop-1500x870.png 1500w,
-                    ../public/images/poster/laptop-1000x580.png 1000w" 
+                    data-srcset="../public/images/poster/laptop-500x290.svg 500w,
+                                ../public/images/poster/laptop-1000x580.svg 1000w" 
                     data-sizes="(min-width: 768px) 50vw, 1vw" 
-                    data-src="../public/images/poster/laptop-3000x1740.png" 
+                    data-src="../public/images/poster/laptop-500x290.svg 1000w" 
                     sizes="(min-width: 768px) 50vw, 1vw" 
-                    srcset="../public/images/poster/laptop-3000x1740.png 3000w,
-                    ../public/images/poster/laptop-2000x1160.png 2000w,
-                    ../public/images/poster/laptop-1500x870.png 1500w,
-                    ../public/images/poster/laptop-1000x580.png 1000w" 
-                    src="../public/images/poster/laptop-3000x1740.png">
+                    srcset="../public/images/poster/laptop-500x290.svg 500w,
+                            ../public/images/poster/laptop-1000x580.svg 1000w">
                 </div>
             </div>
         </div>
@@ -39,7 +34,7 @@
         <!-- <div class="container-fluid"> -->
             <div class="row service-spectrum sp-parent py-3 py-md-5 py-lg-7">
                 <div class="col-12">
-                    <h2 class="hl2-text mb-1 mb-sm-3 mb-md-4">Service Spectrum</h2>
+                    <h2 class="hl2-text mb-1 mb-md-4">Service Spectrum</h2>
                 </div>
                 <div class="flex-wrap py-7">
                     <div class="col-12 col-2 col-lg-4 mb-md-2">
@@ -51,7 +46,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                         </div>
                     </div>
-                    <div class="col-12 col-2 col-lg-4 mt-0 mt-2 mb-md-2">
+                    <div class="col-12 col-2 col-lg-4 mt-0 mb-md-2">
                         <div class="sp-img-box">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 220 180" width="220" height="180"><g><rect x="0" y="0" width="220" height="180" transform="matrix(1,0,0,1,0,0)" fill="none"/><path d=" M 40.376 64.167 C 40.323 64.378 40.269 64.592 40.225 64.805 L 40 64.805 L 40 66.907 L 40 81.913 L 40 82.816 L 40.042 82.816 C 41.317 96.812 72.174 108.03 110 108.03 C 147.826 108.03 178.685 96.812 179.96 82.816 L 180 82.816 L 180 81.913 L 180 66.907 L 180 64.805 L 179.778 64.805 C 179.731 64.592 179.677 64.378 179.624 64.167 C 176.056 77.331 146.222 87.619 110 87.619 C 73.778 87.619 43.944 77.331 40.376 64.167 L 40.376 64.167 L 40.376 64.167 Z  M 40.376 95.947 C 40.323 96.158 40.269 96.372 40.225 96.585 L 40 96.585 L 40 98.685 L 40 113.696 L 40 114.596 L 40.042 114.596 C 41.317 128.592 72.174 139.81 110 139.81 C 147.826 139.81 178.685 128.592 179.96 114.596 L 180 114.596 L 180 113.696 L 180 98.685 L 180 96.585 L 179.778 96.585 C 179.731 96.372 179.677 96.158 179.624 95.947 C 176.056 109.111 146.222 119.399 110 119.399 C 73.778 119.399 43.944 109.111 40.376 95.947 L 40.376 95.947 L 40.376 95.947 Z  M 40.376 127.202 C 40.323 127.416 40.269 127.627 40.225 127.841 L 40 127.841 L 40 129.943 L 40 144.951 L 40 145.852 L 40.042 145.852 C 41.317 159.848 72.174 171.065 110 171.065 C 147.826 171.065 178.685 159.848 179.96 145.852 L 180 145.852 L 180 144.951 L 180 129.943 L 180 127.841 L 179.778 127.841 C 179.731 127.627 179.677 127.416 179.624 127.202 C 176.056 140.368 146.222 150.654 110 150.654 C 73.778 150.654 43.944 140.368 40.376 127.202 L 40.376 127.202 Z  M 40.042 50.958 L 40 50.958 L 40 50.06 L 40 35.049 L 40 32.949 L 40.225 32.949 C 43.096 19.516 73.264 8.935 110 8.935 C 146.738 8.935 176.906 19.516 179.778 32.949 L 180 32.949 L 180 35.049 L 180 50.06 L 180 50.958 L 179.96 50.958 C 178.685 64.954 147.826 76.174 110 76.174 C 72.174 76.174 41.317 64.954 40.042 50.958 Z " fill-rule="evenodd" fill="rgb(38,70,255)"/></g></svg>
                         </div>
@@ -69,7 +64,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                         </div>
                     </div>
-                    <div class="col-12 col-2 col-lg-4 mt-0 mt-2">
+                    <div class="col-12 col-2 col-lg-4 mt-0">
                         <div class="sp-img-box">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 220 180" width="220" height="180"><g><rect x="0" y="0" width="220" height="180" transform="matrix(1,0,0,1,0,0)" fill="none"/><path d=" M 63.735 29.538 C 63.735 25.593 67.299 22.387 71.688 22.387 C 76.076 22.387 79.638 25.593 79.638 29.538 C 79.638 33.485 76.076 36.689 71.688 36.689 C 67.299 36.689 63.735 33.485 63.735 29.538 L 63.735 29.538 L 63.735 29.538 L 63.735 29.538 L 63.735 29.538 L 63.735 29.538 L 63.735 29.538 L 63.735 29.538 Z  M 140.362 42.541 C 140.362 38.594 143.924 35.39 148.313 35.39 C 152.703 35.39 156.265 38.594 156.265 42.541 C 156.265 46.488 152.703 49.692 148.313 49.692 C 143.924 49.692 140.362 46.488 140.362 42.541 L 140.362 42.541 L 140.362 42.541 L 140.362 42.541 L 140.362 42.541 L 140.362 42.541 Z  M 83.494 133.828 L 83.494 124.836 L 83.494 124.836 C 85.702 121.203 93.25 117.242 106.145 112.969 L 111.446 111.453 L 114.337 110.586 L 118.675 109.287 C 124.474 107.46 129.931 105.146 135.06 102.352 L 137.469 101.053 L 140.844 98.885 L 145.182 95.417 L 148.554 91.95 L 150.002 90.216 L 151.447 88.483 L 153.374 85.449 L 154.82 82.849 L 156.265 79.814 C 157.388 77.287 158.348 73.816 159.158 69.414 L 159.639 65.512 L 160.121 59.878 L 160.121 58.899 C 166.066 55.421 170 49.39 170 42.541 C 170 31.776 160.282 23.038 148.313 23.038 C 136.344 23.038 126.627 31.776 126.627 42.541 L 126.627 42.541 L 126.627 42.541 L 126.627 42.541 L 126.627 42.541 C 126.627 49.574 130.775 55.741 136.989 59.174 L 136.989 60.311 L 136.944 62.004 C 136.881 65.84 136.088 69.372 134.578 72.615 L 133.615 74.613 L 133.615 74.613 L 133.615 74.613 L 133.615 74.613 C 132.994 75.872 132.184 77.024 131.206 78.08 L 128.795 80.681 L 126.868 82.415 L 124.94 83.716 L 122.048 85.449 L 113.855 88.917 L 107.108 91.083 L 83.494 98.452 L 83.494 93.251 L 83.494 46.008 L 83.303 46.008 L 83.303 46.008 C 89.354 42.547 93.373 36.462 93.373 29.538 C 93.373 18.775 83.658 10.035 71.688 10.035 C 59.718 10.035 50 18.775 50 29.538 L 50 29.538 L 50 29.538 L 50 29.538 L 50 29.538 C 50 36.572 54.148 42.74 60.362 46.172 L 60.362 57.71 L 60.362 71.58 L 60.362 82.849 L 60.362 133.992 L 60.554 133.992 C 54.501 137.453 50.484 143.538 50.484 150.462 C 50.484 161.225 60.199 169.965 72.168 169.965 C 84.137 169.965 93.857 161.225 93.857 150.462 C 93.857 143.428 89.708 137.26 83.494 133.828 L 83.494 133.828 Z  M 64.458 150.678 C 64.458 146.731 68.022 143.527 72.409 143.527 C 76.799 143.527 80.363 146.731 80.363 150.678 C 80.363 154.624 76.799 157.829 72.409 157.829 C 68.022 157.829 64.458 154.624 64.458 150.678 Z " fill-rule="evenodd" fill="rgb(38,70,255)"/></g></svg>
                         </div>
@@ -93,7 +88,7 @@
                     </div>
                     <div class="col-12 col-lg-9">
                         <div class="row">
-                            <div class="col-12 col-md-6 mb-3">
+                            <div class="col-12 col-md-6 mb-3 mb-md-5">
                                 <h3>Lorem ipsum dolor sit amet, consectetur</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                     pulvinar lorem et nibh egestas congue.</p>
@@ -113,12 +108,12 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                     pulvinar lorem et nibh egestas congue.</p>
                             </div>
-                            <div class="col-12 col-md-6 mb-3">
+                            <div class="col-12 col-md-6">
                                 <h3>Lorem ipsum dolor sit amet, consectetur</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                         pulvinar lorem et nibh egestas congue.</p>
                             </div>
-                            <div class="col-12 col-md-6 mb-3">
+                            <div class="col-12 col-md-6">
                                 <h3>Lorem ipsum dolor sit amet, consectetur</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                     pulvinar lorem et nibh egestas congue.</p>
@@ -134,10 +129,9 @@
     <section>
         <div class="break-out">
             <div class="container-fluid">
-                <div class="flex-column py-3 py-md-5 py-lg-7 aboutme">
+                <div class="row py-3 py-md-5 py-lg-7 aboutme">
                     <div class="col-1 txt-al-ce mb-5">
                         <picture>
-                            <!-- <source media="(min-width: 1200px)" srcset="../public/images/profile-300x300.jpeg"> -->
                             <source media="(min-width: 768px)" srcset="../public/images/profile-150x150.jpeg">
                             <source media="(min-width: 465px)" srcset="../public/images/profile-100x100.jpeg">
                             <source media="(max-width: 464px)" srcset="../public/images/profile-65x65.jpeg">
@@ -147,7 +141,7 @@
                     <div class="col-1 txt-al-ce mt-2 mb-5">
                         <h2 class="hl2-text">Who is this guy?</h3>
                     </div>
-                    <div class="col-1 mb-6 mt-2">
+                    <div class="col-1 mb-6 mt-1">
                         <div class="impressions-fader">
                             <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
                             <span class="impressions second hidden" style="opacity: 0;">I transform my thoughts into reality.</span>
@@ -155,7 +149,7 @@
                             <span class="impressions last hidden" style="opacity: 0;">I enjoy great music and I love science fiction.</span>
                         </div>
                     </div>
-                    <div class="col-1 mt-1">
+                    <div class="col-1">
                         <p class="text-1">As a student of Web Technologies I am able to work in various web related roles, I have a wide range of
                         skills; front end development, design, and back end development. I would like take on back end development
                         projects now but I am open to front end as well. As a student I have little or not experience in

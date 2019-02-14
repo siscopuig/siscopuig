@@ -17,11 +17,8 @@
     <!-- <link href="../public/css/custom-animation.css" rel="stylesheet" type="text/css"> -->
 
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-
-    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'> -->
-    <!-- <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700|Anton' rel='stylesheet' type='text/css'>-->
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
     <!-- favicon -->
     <!-- <link rel="shortcut icon" type="image/x-icon" href="app/public/images/favicon.ico">-->
