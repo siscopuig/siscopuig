@@ -442,7 +442,6 @@ transform: rotate(45deg);
     bottom: 0;
     margin: 0;
     padding-left: 15px;
-    font-size: 1.825rem;
 }
   
 .mobile-menu-navigation li {
@@ -466,6 +465,7 @@ transform: rotate(45deg);
   
 .mobile-menu-navigation a {
     color: rgba(255, 255, 255, 0.65);
+    font-size: 3rem;
 }
   
 .mobile-menu-navigation a:hover,
@@ -702,6 +702,7 @@ img.lazyfade.lazyloaded {
 }
 
 @media (min-width: 1024px) {
+
     .col-2 {
         flex: 0 0 50%;
         max-width: 50%;
@@ -728,12 +729,16 @@ img.lazyfade.lazyloaded {
         flex: 0 0 25%;
         max-width: 25%;
     }
+
+    /* .sp-img-box {
+        transform: scale(0.7);
+    } */
 }
 
 @media (min-width: 1400px) {
 
     .sp-img-box {
-        transform: scale(1);
+        transform: scale(0.7);
     }
 }
 /* End service spectrum */
@@ -803,8 +808,15 @@ img.lazyfade.lazyloaded {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
 
+    .aboutme p {
+        column-count: 2;
+        column-gap: 5%;
+        text-align: justify;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 /* End about me */
 
@@ -1109,7 +1121,7 @@ textarea.form-control:focus {
 }
 
 
-@keyframes pulsate {
+/* @keyframes pulsate {
     0% {
       transform: scale(0.1, 0.1);
       opacity: 0;
@@ -1231,7 +1243,7 @@ textarea.form-control:focus {
     100% {
         -ms-transform: translateY(0) rotate(-45deg);
     }
-}
+} */
 
 /* End contact */
 
@@ -1549,6 +1561,10 @@ footer .title {
         padding-top: 0 !important;
     } */
 
+    .mb-md-0 {
+        margin-bottom: 0 !important;
+    }
+
     .mb-md-3 {
         margin-bottom: 60px !important;
     }
@@ -1580,11 +1596,11 @@ footer .title {
         padding-top: 0 !important;
     }
 
-    .mt-0 {
+    .mt-lg-0 {
         margin-top: 0 !important;
     }
 
-    .mb-0 {
+    .mb-lg-0 {
         margin-bottom: 0 !important;
     }
 
@@ -1594,6 +1610,14 @@ footer .title {
 
     .pb-0 {
         padding-bottom: 0 !important;
+    }
+
+    .mt-lg-2 {
+        margin-top: 40px !important;
+    }
+
+    .mt-lg-3 {
+        margin-top: 60px !important;
     }
 }
 

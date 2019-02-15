@@ -1,8 +1,8 @@
 
 <footer class="break-out footer-bg footer wht py-3">
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-align-vertically mb-3 mt-0 mb-0">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-align-vertically mb-3 mb-lg-0">
                 <div class="footer-mark-logo">
                 </div>
                 <div class="footer-mark">
