@@ -126,7 +126,7 @@
     </section>
     <!-- End Principles -->
     <!-- About me -->
-    <section>
+    <section id="aboutme">
         <div class="break-out">
             <div class="container-fluid">
                 <div class="row py-3 py-md-5 py-lg-7 aboutme">

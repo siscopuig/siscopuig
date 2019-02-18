@@ -30,14 +30,14 @@
 <!-- MAIN NAVIGATION -->
 <body>
 <!-- Header nav-->
-<header class="header">
+<header id="header" class="header">
     <a href="#" class="header-logo" data-go="home" title="Home"></a>        
     <nav class="d-none d-md-block" role="navigation">
         <ul class="header-nav">
             <li><a class="active view-home" data-go="home" href="#">Profile</a></li>
-            <li><a class="view-work" data-go="work" href="#">About me</a></li>
+            <li><a class="view-work" data-go="work" data-scroll href="#aboutme">About me</a></li>
             <li><a class="view-blog" data-go="blog" href="#">Github</a></li>
-            <li><a class="view-contact" data-go="contact" href="#">Contact</a></li>
+            <li><a class="view-contact" data-go="contact" href="contact.php">Contact</a></li>
         </ul>
     </nav>
     <button class="d-md-none mobile-menu-button" aria-label="Menu"><span></span></button>
@@ -59,3 +59,7 @@
   </nav>
 </div>
 <!-- End mobile menu -->
+
+<!-- headroom -->
+<div id="headroom" class="d-none d-md-block headroom headroom--not-bottom headroom--not-top headroom--pinned">
+</div>

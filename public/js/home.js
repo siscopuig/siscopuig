@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     setTimeout(function() {
         $(".impressions.first").removeClass("hidden").animate({
             opacity: "1"
@@ -54,5 +55,3 @@ $(document).ready(function() {
         $(t).slideToggle(300).toggleClass("expand")
     })
 });
-
-

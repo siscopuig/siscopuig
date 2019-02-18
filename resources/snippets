@@ -1,0 +1,183 @@
+<!-- headroom -->
+<!-- <div id="headroom" class="d-none d-md-block headroom headroom--top headroom--not-bottom">
+    <header class="header">
+        <a class="header-logo" href="#" title="Sisco Puig home page"></a>
+    <nav class="d-none d-md-block" role="navigation">
+        <ul class="header-nav">
+            <li><a class="active" href="#">Profile</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+        <button class="d-md-none mobile-menu-button" aria-label="Menu">
+            <span></span>
+        </button>
+    </header>
+</div> -->
+
+<!-- Principles -->
+<section class="principles-bg">
+    <div class="container-fluid">
+        <div class="row principles ">
+            <div class="principles-col-1 mb-lg-0 col-lg-3">
+                <h2 class="hl2-text wht mb-5">Principles</h2>
+            </div>
+            <div class="principles-col-2">
+                <div class="principles-b">
+                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        pulvinar lorem et nibh egestas congue.</p>
+                </div>
+                <div class="principles-b">
+                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        pulvinar lorem et nibh egestas congue.</p>
+                </div>
+                <div class="principles-b">
+                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        pulvinar lorem et nibh egestas congue.</p>
+                </div>
+            </div>
+            <div class="principles-col-2">
+                <div class="principles-b">
+                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        pulvinar lorem et nibh egestas congue.</p>
+                </div>
+                <div class="principles-b">
+                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        pulvinar lorem et nibh egestas congue.</p>
+                </div>
+                <div class="principles-b">
+                    <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        pulvinar lorem et nibh egestas congue.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Principles -->
+
+<!-- Footer -->
+<!-- <footer class="clr-black py-lg-3">
+    <div class="container-fluid">
+        <div class="row footer wht">
+            <div class="col-1">
+                <a class="logo-white"></a>
+            </div>
+            <div class="col-4">
+                <span class="title">Handcrafted by Sisco Puig</span>
+                <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
+            </div>
+            <div class="col-2">
+                <nav class="" role="navigation">
+                    <ul>
+                        <li>Profile</li>
+                        <li>About me</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-2">
+                <ul>
+                    <li>Github</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer> -->
+
+<!-- footer mobile -->
+<!-- <footer class="footer-bg footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <a class="logo-wht"></a>
+            </div>
+            <div class="col-90">
+                <span class="title">Handcrafted by Sisco Puig</span>
+                <span class="subline">© Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
+            </div>
+            <div class="flex-column">
+            <div class="col-1">
+                <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
+                <nav id="sitemap" class="d-lg-block collapse" role="navigation">
+                    <ul class="footer-sitemap">
+                        <li><a data-go="home" href="" target="_blank" title="" rel="">Profile</a></li>
+                        <li><a data-go="about me" href="" target="_blank" title="" rel="">About me</a></li>
+                        <li><a data-go="contact" href="" target="_blank" title="" rel="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-1 footer-bottom">
+                <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
+                <nav class="" role="navigation">
+                    <ul id="social" class="d-lg-block collapse">
+                        <li><a href="" target="_blank" title="" rel="">Github</a></li>
+                        <li><a href="" target="_blank" title="" rel="">Facebook</a></li>
+                        <li><a href="" target="_blank" title="" rel="">Twitter</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer> -->
+<!-- end footer mobile -->
+
+
+.vector-code {
+    /* border: 1px solid #2646FF; */
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/code-150x130.svg");
+}
+.vector-data {
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/database-150x130.svg");
+}
+.vector-deployment {
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/deployment-150x130.svg");
+}
+.vector-environment {
+    width: 150px;
+    height: 130px;
+    margin: 0 auto 15px auto;
+    transform: scale(1);
+    background-image: url("../../public/images/widw/environment-150x130.svg");
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 414px) {
+    
+}
+
+
+<img class="lazyfade lazyloaded" alt=""
+                    data-srcset="../public/images/poster/laptop-3000x1740.png 3000w,
+                    ../public/images/poster/laptop-2500x1450.png 2500w,
+                    ../public/images/poster/laptop-2000x1160.png 2000w,
+                    ../public/images/poster/laptop-1500x870.png 1500w,
+                    ../public/images/poster/laptop-1000x580.png 1000w" 
+                    data-sizes="(min-width: 768px) 50vw, 1vw" 
+                    data-src="../public/images/poster/laptop-3000x1740.png" 
+                    sizes="(min-width: 768px) 50vw, 1vw" 
+                    srcset="../public/images/poster/laptop-3000x1740.png 3000w,
+                    ../public/images/poster/laptop-2500x1450.png 2500w,
+                    ../public/images/poster/laptop-2000x1160.png 2000w,
+                    ../public/images/poster/laptop-1500x870.png 1500w,
+                    ../public/images/poster/laptop-1000x580.png 1000w" 
+                    src="../public/images/poster/laptop-3000x1740.png">

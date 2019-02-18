@@ -39,12 +39,33 @@
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="../public/js/home.js"></script>
-<!-- 
-<script src="../public/js/headroom.js"></script>
-<script src="../public/js/application.js"></script>
-<script async="" src="../public/js/lazysizes.min.js"></script>
--->
 
+<!-- Scrolling down to other parts of the page smoothly -->
+<script src="../public/js/smooth-scroll.min.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	    speed: 600
+    });
+</script>
+
+<!-- Headroom js - Hide header when scrolling down, show up scrolling up -->
+<!-- https://cdnjs.com/libraries/headroom -->
+<script src="../public/js/headroom.min.js"></script>
+<script src="../public/js/jQuery.headroom.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".header").clone().appendTo("#headroom"),
+        $("#headroom").headroom({
+            offset: 600,
+            tolerance: {
+                up: 20,
+                down: 0
+            }
+        })
+    });
+</script>
+
+<!-- <script async="" src="../public/js/lazysizes.min.js"></script> -->
 
 
 <!---->
