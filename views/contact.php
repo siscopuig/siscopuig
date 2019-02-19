@@ -28,26 +28,26 @@
                 <!-- form-box -->
                 <div class="col-12 col-2">
                     <h3 class="hl4-text wht mb-1">Drop me a line</h2>
-                        <form class="form-style" action="http://localhost:63342/siscopuigold/app/config/mail.php"
-                            method="post">
-                            <div class="form-group" id="name-group">
-                                <label for="name"></label>
-                                <input type="text" class="form-control required" id="name" name="name"
-                                    aria-required="true" placeholder="Your name" value="">
-                            </div>
-                            <div class="form-group" id="email-group">
-                                <label for="email"></label>
-                                <input type="text" class="form-control required email" id="email" name="email"
-                                    role="banner" placeholder="Your email" aria-required="true" value="">
-                            </div>
-                            <div class="form-group textarea" id="message-group">
-                                <label for="message"></label>
-                                <textarea class="form-control textarea-text" rows="5" id="message" name="message"
-                                    role="textbox" placeholder="Your message"></textarea>
-                            </div>
-                            <p class="bottom-advice">You should receive an answer in the next 2 days.</p>
-                            <button type="submit" class="submit-button">Send</button>
-                        </form>
+                    <div id="feedback_box"></div>
+                    <form class="form-style" action="http://localhost:3000/config/mail.php" method="post">
+                        <div class="form-group" id="name-group">
+                            <label for="name"></label>
+                            <input type="text" class="form-control required" id="name" name="name"
+                                aria-required="true" placeholder="Your name" value="">
+                        </div>
+                        <div class="form-group" id="email-group">
+                            <label for="email"></label>
+                            <input type="text" class="form-control required email" id="email" name="email"
+                                role="banner" placeholder="Your email" aria-required="true" value="">
+                        </div>
+                        <div class="form-group textarea" id="message-group">
+                            <label for="message"></label>
+                            <textarea class="form-control textarea-text" rows="5" id="message" name="message"
+                                role="textbox" placeholder="Your message"></textarea>
+                        </div>
+                        <p class="bottom-advice">You should receive an answer in the next 2 days.</p>
+                        <button type="submit" class="submit-button">Send</button>
+                    </form>
                 </div>
                 <!-- contact-box -->
                 <div class="col-12 col-2">
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="col-md-2 col-lg-2">
-                            <div class="findme-box pt-3 wht">
+                            <div class="findme-box pt-3 pt-lg-1 wht">
                                 <h3 class="hl4-text">Find me on:</h3>
                                 <div class="contact-logo">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

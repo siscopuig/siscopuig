@@ -7,23 +7,24 @@
                 <div class="container-fluid d-flex flex-column justify-content-between">
                     <div class="row align-items-center flex-grow">
                         <div class="col-12 col-md-7 col-lg-6">
-                            <h1 class="mb-1">
+                            <h1 class="mb-1 slidein">
                                 <span class="name">Sisco Puig</span>
                                 <span class="title">Web Developer</span>
                             </h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            <p class="slidein">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         </div>
                     </div>
                 </div>
                 <div class="poster-img-box d-md-block">
-                    <img class="lazyfade lazyloaded" alt=""
-                    data-srcset="../public/images/poster/laptop-500x290.svg 500w,
+                    <img class="lazyfade lazyload fade-in poster-slidein" alt="hello-image"
+                        data-srcset="../public/images/poster/laptop-500x290.svg 500w,
                                 ../public/images/poster/laptop-1000x580.svg 1000w" 
-                    data-sizes="(min-width: 768px) 50vw, 1vw" 
-                    data-src="../public/images/poster/laptop-500x290.svg 1000w" 
-                    sizes="(min-width: 768px) 50vw, 1vw" 
-                    srcset="../public/images/poster/laptop-500x290.svg 500w,
-                            ../public/images/poster/laptop-1000x580.svg 1000w">
+                        data-sizes="(min-width: 768px) 50vw, 1vw" 
+                        data-src="../public/images/poster/laptop-500x290.svg 1000w" 
+                        sizes="(min-width: 768px) 50vw, 1vw" 
+                        srcset="../public/images/poster/laptop-500x290.svg 500w,
+                            ../public/images/poster/laptop-1000x580.svg 1000w"
+                        src="../public/images/poster/laptop-1000x580.svg">
                 </div>
             </div>
         </div>
@@ -139,7 +140,7 @@
                         </picture>
                     </div>
                     <div class="col-1 txt-al-ce mt-2 mt-lg-3">
-                        <h2 class="hl2-text">Who is this guy?</h3>
+                        <h2 class="hl2-text">Who is this guy?</h2>
                     </div>
                     <div class="col-1 mb-6 mt-1 mt-lg-3">
                         <div class="impressions-fader">
@@ -150,10 +151,7 @@
                         </div>
                     </div>
                     <div class="col-1 mt-lg-2">
-                        <p class="text-1">As a student of Web Technologies I am able to work in various web related roles, I have a wide range of
-                        skills; front end development, design, and back end development. I would like take on back end development
-                        projects now but I am open to front end as well. As a student I have little or not experience in
-                        production development, but I am able to work on a project with the full scope in mind.
+                        <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
                 </div>
@@ -173,9 +171,9 @@
                             <span>You know about me,</span>
                             <span>let’s talk about you.</span>    
                         </div>
-                        <div class="talk-content-lg mb-4 mb-md-3">
+                        <!-- <div class="talk-content-lg mb-4 mb-md-3">
                             <span>You know about me, let’s talk about you.</span>
-                        </div>
+                        </div> -->
                         <span class="pt-3"><a href="#">Send me a message</a></span>
                     </div>
                 </div>

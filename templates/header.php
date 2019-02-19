@@ -6,23 +6,16 @@
     <!-- different media queries will be able to have the correct effect. Without this, viewing the page in the
          specific device would basically just display a zoomed-out version of your page   -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- css files -->
     <link href="../public/css/normalize.css" rel="stylesheet" type="text/css">
     <link href="../public/css/styles.css" rel="stylesheet" type="text/css">
-
-
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-
     <!-- favicon -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="app/public/images/favicon.ico">-->
-    <!-- <link rel="icon" href="../images/favicon.ico" type="image/icon">-->
-
-    <!-- javascript files -->
-    <script src="../public/js/jquery/jquery3.3.1.min.js"></script>
-
+    <link rel="shortcut icon" type="image/x-icon" href="../public/images/logo/logo-black_30x32.ico">
+    <link rel="icon" href="../public/images/logo/logo-black_30x32.ico" type="image/icon">
+    
     <!-- title -->
     <title>Sisco Puig - Web Developer</title>
 
@@ -32,9 +25,9 @@
 <!-- Header nav-->
 <header id="header" class="header">
     <a href="#" class="header-logo" data-go="home" title="Home"></a>        
-    <nav class="d-none d-md-block" role="navigation">
+    <nav class="d-none d-md-block">
         <ul class="header-nav">
-            <li><a class="active view-home" data-go="home" href="#">Profile</a></li>
+            <li><a class="active view-home" data-go="home" href="index.php">Profile</a></li>
             <li><a class="view-work" data-go="work" data-scroll href="#aboutme">About me</a></li>
             <li><a class="view-blog" data-go="blog" href="#">Github</a></li>
             <li><a class="view-contact" data-go="contact" href="contact.php">Contact</a></li>
@@ -59,7 +52,7 @@
   </nav>
 </div>
 <!-- End mobile menu -->
-
 <!-- headroom -->
 <div id="headroom" class="d-none d-md-block headroom headroom--not-bottom headroom--not-top headroom--pinned">
 </div>
+<!-- End headroom -->

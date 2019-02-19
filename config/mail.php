@@ -19,7 +19,6 @@ if (empty($_POST['email'])) {
 } elseif (! filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
     $errors['email'] = 'Email Invalid';
 }
-
     $email = trim($_POST['email']);
 
 if (empty($_POST['message'])) {
@@ -33,26 +32,27 @@ if (empty($_POST['message'])) {
 
 // if there are any errors in our errors array, return a success boolean of false
 if ( ! empty($errors)) {
-
     // if there are items in our errors array, return those errors
-    $data['success'] = false;
+    $data['success'] = False;
     $data['errors']  = $errors;
 
 } else {
-
     // if there are no errors process our form, then return a message
 
-    $emailTo = 'sisco@siscopuig.com'; // Put your own email address here
-    $body = "Name: $name \n\nEmail: $email  \n\nComments:\n $message";
+    # Put your own email address here!!!
+    $emailTo = 'sisco@localhost.com'; 
+    $body = "Name: $name \n\nEmail: $email  \n\nBody:\n $message";
     $headers = 'From: Sisco Puig - Developer <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
-
+    
     $mail = mail($emailTo, $body, $headers);
 
     if ($mail) {
-        $data['success'] = true;
+        $data['success'] = True;
         $data['name'] = $name;
     }
 }
 
 // return all our data to an AJAX call
 echo json_encode($data);
+
+

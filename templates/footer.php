@@ -2,7 +2,7 @@
 <footer class="break-out footer-bg footer wht py-3">
     <div class="container-fluid">
         <div class="row align-items-center justify-content-between">
-            <div class="col-12 col-align-vertically mb-3 mb-lg-0">
+            <div class="col-12 col-align-vertically mb-3 mb-md-3 mb-lg-0">
                 <div class="footer-mark-logo">
                 </div>
                 <div class="footer-mark">
@@ -34,12 +34,14 @@
     </div>
 </footer>
 
-
-
 <!-- =======================  JavaScript  =========================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="../public/js/home.js"></script>
-
+<script src="../public/js/jquery/jquery3.3.1.min.js"></script>
+<!-- Headroom js - Hide header when scrolling down, show up scrolling up -->
+<!-- https://cdnjs.com/libraries/headroom -->
+<script src="../public/js/headroom.min.js"></script>
+<script src="../public/js/jQuery.headroom.js"></script>
+<script src="../public/js/application.js"></script>
 <!-- Scrolling down to other parts of the page smoothly -->
 <script src="../public/js/smooth-scroll.min.js"></script>
 <script>
@@ -47,24 +49,6 @@
 	    speed: 600
     });
 </script>
-
-<!-- Headroom js - Hide header when scrolling down, show up scrolling up -->
-<!-- https://cdnjs.com/libraries/headroom -->
-<script src="../public/js/headroom.min.js"></script>
-<script src="../public/js/jQuery.headroom.js"></script>
-<script>
-    $(document).ready(function() {
-        $(".header").clone().appendTo("#headroom"),
-        $("#headroom").headroom({
-            offset: 600,
-            tolerance: {
-                up: 20,
-                down: 0
-            }
-        })
-    });
-</script>
-
 <!-- <script async="" src="../public/js/lazysizes.min.js"></script> -->
 
 
