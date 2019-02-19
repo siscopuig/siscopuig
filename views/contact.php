@@ -53,14 +53,14 @@
                 <div class="col-12 col-2">
                     <div class="row">
                         <div class="col-md-2 col-lg-2">
-                            <div class="keeptouch-box pt-md-0 pt-lg-0 pt-3 wht">
+                            <div class="keeptouch-box pt-2 pt-md-0 pt-lg-0 wht">
                                 <h3 class="hl4-text mb-1">Keep in touch</h3>
-                                <p class="text-3 ">If you want to talk about your project, or if you are interested in
+                                <p class="text-3">If you want to talk about your project, or if you are interested in
                                     my availability and rates, I recommend that you contact me via Email or Skype.</p>
                             </div>
                         </div>
                         <div class="col-md-2 col-lg-2">
-                            <div class="findme-box pt-3 pt-lg-1 wht">
+                            <div class="findme-box pt-2 pt-lg-1 wht">
                                 <h3 class="hl4-text">Find me on:</h3>
                                 <div class="contact-logo">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

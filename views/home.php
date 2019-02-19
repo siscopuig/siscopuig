@@ -16,14 +16,14 @@
                     </div>
                 </div>
                 <div class="poster-img-box d-md-block">
-                    <img class="lazyfade lazyload fade-in poster-slidein" alt="hello-image"
+                    <img class="fade-in poster-slidein" alt="hello-image"
                         data-srcset="../public/images/poster/laptop-500x290.svg 500w,
-                                ../public/images/poster/laptop-1000x580.svg 1000w" 
+                                     ../public/images/poster/laptop-1000x580.svg 1000w" 
                         data-sizes="(min-width: 768px) 50vw, 1vw" 
                         data-src="../public/images/poster/laptop-500x290.svg 1000w" 
                         sizes="(min-width: 768px) 50vw, 1vw" 
                         srcset="../public/images/poster/laptop-500x290.svg 500w,
-                            ../public/images/poster/laptop-1000x580.svg 1000w"
+                                ../public/images/poster/laptop-1000x580.svg 1000w"
                         src="../public/images/poster/laptop-1000x580.svg">
                 </div>
             </div>
@@ -167,13 +167,13 @@
                 <div class="row">
                     <div class="talk-content col-0 cta wht py-3 py-md-5 py-lg-7">
                         <h2 class="mb-1 mb-md-3">Ready to get started?</h2>
-                        <div class="talk-content-sm pt-1">
+                        <div class="pt-1 d-md-none">
                             <span>You know about me,</span>
                             <span>let’s talk about you.</span>    
                         </div>
-                        <!-- <div class="talk-content-lg mb-4 mb-md-3">
+                        <div class="d-none d-md-block mb-md-3">
                             <span>You know about me, let’s talk about you.</span>
-                        </div> -->
+                        </div>
                         <span class="pt-3"><a href="#">Send me a message</a></span>
                     </div>
                 </div>
