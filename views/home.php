@@ -44,7 +44,8 @@
                         </div>
                         <div class="sp-txt-box mt-lg-2">
                             <h3 class="mb-1">Code</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                            <p>Python, PHP, Java, Django Framework, Selenium - Web Browser Automation, HTML5, CSS3, Sass, XPath, XML, Json, Javascript, jQuery.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p> -->
                         </div>
                     </div>
                     <div class="col-12 col-2 col-lg-4 mt-0 mb-md-2">
@@ -53,7 +54,8 @@
                         </div>
                         <div class="sp-txt-box mt-lg-2">
                             <h3 class="mb-1">Data</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                            <p>Database creation, integration and management for MySQL, SQL, PostgreSQL, Redis, memcached, SQlite, MongoDb, Oracle.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p> -->
                         </div>
                     </div>
                     <div class="col-12 col-2 col-lg-4 mt-0 mb-md-2">

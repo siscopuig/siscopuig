@@ -1,0 +1,84 @@
+
+
+
+
+# POSTER
+
+Sisco Puig
+Web Developer
+I develop things to work, inspire, scale, design.
+
+
+# SERVICE SPECTRUM
+
+Code: 
+Python, PHP, Django Framework, Selenium - Web Browser Automation, HTML5, CSS3, 
+Sass, XPath, Bash, XML, Json, Javascript, jQuery. 
+
+Data:
+Database creation, integration and management for 
+MySQL, SQL, PostgreSQL, Redis, memcached, SQlite, MongoDb, Oracle.
+
+Deployment: 
+WSGI, Docker, Jenkins, Ansible, Jira, Amazon Web Services (AWS), DigitalOcean
+
+Environment:
+Linux Unix, OS X, Git, Github, BitBucket, JIRA, Docker Hub, 
+Continuous integration, Agile (Scrum, Kanban), 
+UML - Unified Modelling Language
+
+
+# PRINCIPLES
+
+devops:
+   The more you know about devops, the better your code will be.
+      -  Knowing the environment where you your code run.
+      -  that looks far past my own machine
+      -  it gave me a new set of skills I could apply in my daily work as a developer.
+      -  Process Management, Threads and Concurrency, Sockets, I/O Management, 
+         Virtualization, Memory storage and File systems.
+
+Security:
+
+   Secure code is good code.
+
+   As a software developer, it is your responsibility to make sure that your software, 
+   or the pieces of it that you write, are not used to cause harm to your or your 
+   client’s organization; you must ensure that your software is secure.
+
+Code:
+
+   Good code is code that has good design.
+
+   The cleaner your code, the better you'll be seen as a professional and the 
+   easier it will be for you to make adjustments, correct bugs and implement 
+   new features in the future.
+
+Personal
+
+   Be proactive, not reactive.
+   Having a forward-thinking attitude, I'm always receptive to new ideas and possibilities 
+   in order to construct a solid vision that helps to achieve goals.
+
+
+# ABOUTME
+I am a senior programmer with good knowledge of front-end techniques.
+I love structure and order and I also stand for quality.
+I do like to mesaure everything.
+I love spending time on fixing little details and optimizing web apps.
+
+
+# CONTACT
+Software Developer, Nerd and Hard Working Problem Solver.
+
+If you are a founder with an attractive startup opportunity 
+and looking for a good technical perspective, get in touch! 
+I'm open to working with people who are passionate about their ideas.
+
+I know it can be hard to find the right people when starting a business. 
+I'm also picky about who I work with but have a penchant for good ideas 
+that solve real world problems.
+
+
+
+
