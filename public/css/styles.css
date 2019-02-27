@@ -33,7 +33,7 @@ html {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
     html {
         font-size: 14px;
     }
@@ -179,7 +179,7 @@ ul {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
     .container-fluid {
         padding-right: 50px;
         padding-left: 50px;
@@ -334,7 +334,6 @@ ul {
     display: inline-block;
     text-indent: -9999em;
     transform: scale(0.7);
-    /* transform-origin: left center; */
     filter: brightness(1);
     background: transparent url("../../public/images/logo/logo-black_30x32.svg") no-repeat;
 }
@@ -695,7 +694,7 @@ transform: rotate(45deg);
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
     .poster-home {
         min-height: 700px;
     }
@@ -1321,7 +1320,6 @@ textarea.form-control:focus {
         -ms-transform: translateY(0) rotate(-45deg);
     }
 }
-
 /* End contact */
 
 /* footer */
@@ -1403,19 +1401,19 @@ footer .title {
 }
 
 .footer h4:before {
-    transform: rotate(45deg)
+    transform: rotate(45deg);
 }
 
 .footer h4:after {
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
 }
 
 .footer h4.collapsed:before {
-    transform: rotate(90deg)
+    transform: rotate(90deg);
 }
 
 .footer h4.collapsed:after {
-    transform: rotate(0)
+    transform: rotate(0);
 }
 
 .footer .collapse {
@@ -1483,11 +1481,11 @@ footer .title {
 @media (min-width: 768px) {
 
     .d-md-none {
-        display:none !important
+        display:none !important;
     }
 
     .d-md-block {
-        display: block !important
+        display: block !important;
     }
 
     .col-md-6 {
@@ -1510,7 +1508,6 @@ footer .title {
         display: block !important;
     }
 }
-
 /* columns */
 
 /* column queries */
@@ -1536,11 +1533,6 @@ footer .title {
 }
 
 @media (min-width: 1024px) {
-
-    /* .col-lg-2 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    } */
 
     .col-lg-3 {
         flex: 0 0 25%;
@@ -1663,7 +1655,7 @@ footer .title {
     }
 
     .pt-md-3 {
-        padding-top: 60px !important
+        padding-top: 60px !important;
     }
 
     .mb-md-3 {
@@ -1688,11 +1680,6 @@ footer .title {
     .mb-lg-2 {
         margin-bottom: 40px !important;
     }
-
-    /* .mb-lg-0 {
-        margin-bottom: 0 !important;
-    } */
-
 }
 
 @media (min-width: 1024px) {
@@ -1743,9 +1730,3 @@ footer .title {
         padding-bottom: 140px !important;
     }
 }
-
-/* scrolling effect */
-
-
-
-

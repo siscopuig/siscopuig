@@ -12,7 +12,7 @@ I develop things to work, inspire, scale, design.
 # SERVICE SPECTRUM
 
 Code: 
-Python, PHP, Django Framework, Selenium - Web Browser Automation, HTML5, CSS3, 
+Python, PHP, Django Framework, Selenium - Web Browser Automation, JAVA, HTML5, CSS3, 
 Sass, XPath, Bash, XML, Json, Javascript, jQuery. 
 
 Data:
@@ -62,6 +62,37 @@ Personal
 
 
 # ABOUTME
+
+Impressions
+
+   - I like to travel and explore mysterious places.
+   - I transform my thoughts into reality.
+   - I ride my bike whatever I go.
+   - I enjoy great music and I love science fiction.
+
+2 column text
+
+New:
+
+
+
+
+Old: 
+Sisco, a child of the 80s, was born and raised in Valencia, Spain. 
+Flash-forward through 20-something years moved to London and he now is 
+enrolled in the last academic year of a Foundation Degree of Web Technologies f
+rom the University of Birkbeck, London.
+
+Sisco has a positive and motivated attitude, great personal hygiene, 
+adaptable personality, time management skills, ability to grow facial 
+hair and creativity oozing at the seams. Those all seem like excellent 
+reasons to want to work with someone.
+
+I like to work with great individuals and businesses from all around 
+the globe to create awesome internet things, mobile apps and desktop 
+solutions. I would also love to help you to take your product to the next level.
+
+Software Developer, Nerd and Hard Working Problem Solver.
 I am a senior programmer with good knowledge of front-end techniques.
 I love structure and order and I also stand for quality.
 I do like to mesaure everything.
@@ -69,8 +100,20 @@ I love spending time on fixing little details and optimizing web apps.
 
 
 # CONTACT
-Software Developer, Nerd and Hard Working Problem Solver.
 
+New:
+
+
+
+Old:
+I am able to participate and help at any project you may have. 
+Let's talk and see what I can do for you.
+
+In the case you are living in London or the London metropolitan 
+area we can also meet up, have a drink and talk about your project face to face.
+
+
+References:
 If you are a founder with an attractive startup opportunity 
 and looking for a good technical perspective, get in touch! 
 I'm open to working with people who are passionate about their ideas.

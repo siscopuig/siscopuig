@@ -133,4 +133,13 @@ $(document).ready(function() {
         // Stop the form from submitting the normal way and refreshing the page.
         event.preventDefault();
     });
+
+    // Closing mobile-menu
+    $('.view-aboutme').on('click', function() {
+        $("body").removeClass("menu-open"),
+        $(".mobile-menu").fadeOut(300).removeClass("in")
+        $('html, body').animate({
+            scrollTop: ($('#aboutme').offset())
+        },500);
+    });
 });

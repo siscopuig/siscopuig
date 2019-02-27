@@ -54,17 +54,17 @@
 </header>
 <!-- End Header nav-->
 <!-- mobile menu -->
-<div class="mobile-menu in" style="display: none;">
+<div class="mobile-menu in" style="display: none;" id="nav-overlay">
     <div class="mobile-menu-header">
         <a href="" class="header-logo" data-go="home" title="Home">Home</a>
         <button class="mobile-menu-close" aria-label="Close Menu"><span></span></button>
     </div>
-    <nav role="navigation">
+    <nav>
         <ul class="mobile-menu-navigation">
-            <li><a class="active view-home" data-go="home" href="">Profile</a></li>
-            <li><a class="view-work" data-go="work" href="">About me</a></li>
-            <li><a class="view-blog" data-go="blog" href="">Github</a></li>
-            <li><a class="view-contact" data-go="contact" href="">Contact</a></li>
+            <li><a class="active view-home" data-go="home" href="index.php">Profile</a></li>
+            <li><a class="view-aboutme" data-go="aboutme" href="http://localhost:3000/public/index.php#aboutme">About me</a></li>
+            <li><a class="view-github" data-go="github" href="#">Github</a></li>
+            <li><a class="view-contact" data-go="contact" href="contact.php">Contact</a></li>
         </ul>
   </nav>
 </div>
