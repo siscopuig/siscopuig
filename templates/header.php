@@ -28,8 +28,8 @@
     <link rel="icon" type="image/png" sizes="96x96" href="../public/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../public/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../public/images/favicons/manifest.json">
-    <link rel="mask-icon" href="../public/images/favicons/safari-pinned-tab.svg" color="#2243ff">
-    <meta name="msapplication-TileColor" content="#040404">
+    <link rel="mask-icon" href="../public/images/favicons/safari-pinned-tab.svg" color="#171717">
+    <meta name="msapplication-TileColor" content="#171717">
     <meta name="msapplication-TileImage" content="../public/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     

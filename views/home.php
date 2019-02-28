@@ -149,16 +149,11 @@
                         </div>
                     </div>
                     <div class="col-1 mt-lg-2">
-                        <p class="text-1">My name is Sisco Puig. I'm a professional full-stack web developer based in Berlin, Germany. I develop web applications and have a strong background in cloud-based solutions, API development, data scrapping and prototyping utilising Python. I excel at helping businesses and clients bring their ideas to life, and when you hire me, I'll do the same for you.
-                        I have a positive and motivated attitude, great personal hygiene, 
-adaptable personality, time management skills, ability to grow facial 
-hair and creativity oozing at the seams. Those all seem like excellent 
-reasons to want to work with someone.</p>
+                        <p class="text-1">My name is Sisco Puig. I'm a professional full-stack web developer based in Berlin, Germany. I develop web applications and have a strong background in cloud-based solutions, API development, data scrapping and prototyping utilising Python. I excel at helping businesses and clients bring their ideas to life, and when you hire me, I'll do the same for you. I have a positive and motivated attitude, great personal hygiene, adaptable personality, time management skills, ability to grow facial hair and creativity oozing at the seams. Those all seem like excellent reasons to want to work with someone.</p>
                     </div>
                 </div>
             </div>
         </div>
-        
     </section>
     <!-- End about me -->
     <!-- Let's talk -->
