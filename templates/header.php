@@ -45,7 +45,7 @@
     <nav class="d-none d-md-block">
         <ul class="header-nav">
             <li><a class="active view-home" data-go="home" href="index.php">Profile</a></li>
-            <li><a class="view-work" data-go="work" data-scroll href="#aboutme">About me</a></li>
+            <li><a class="view-work" data-go="work" data-scroll href="http://localhost:3000/public/index.php#aboutme">About me</a></li>
             <li><a class="view-blog" data-go="blog" href="#">Github</a></li>
             <li><a class="view-contact" data-go="contact" href="contact.php">Contact</a></li>
         </ul>

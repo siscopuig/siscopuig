@@ -5,10 +5,8 @@
         <div class="row align-items-center py-3 py-md-5 py-lg-7">
             <div class="col-12 col-md-2 col-2">
                 <h2 class="hl2-text txt-al-le mb-2">Contact</h2>
-                <p class="text-1 mb-1 mb-md-2">Lorem ipsum dolor sit amet, timeam epicurei constituto est at, suas mutat
-                    duo an, te rebum intellegat mei. In prima liber vis, ea mea inani omittantur consequuntur.</p>
-                <p class="text-1">Lorem ipsum dolor sit amet, timeam epicurei constituto est at, suas mutat duo an, te
-                    rebum intellegat mei. In prima liber vis, ea mea inani omittantur consequuntur.</p>
+                <p class="text-1 mb-1 mb-md-2">If you are a founder with an attractive startup opportunity and looking for a good technical perspective, get in touch! I'm open to working with people who are passionate about their ideas.</p>
+                <p class="text-1">I know it can be hard to find the right people when starting a business. In the case you are living in Berlin area we can also meet up, have a drink and talk about your project face to face. Let's talk and see what I can do for you.</p>
             </div>
             <div class="col-12 col-md-2 col-2 d-none d-md-block">
                 <div class="map">

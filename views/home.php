@@ -11,7 +11,7 @@
                                 <span class="name">Sisco Puig</span>
                                 <span class="title">Web Developer</span>
                             </h1>
-                            <p class="slidein">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            <p class="slidein">I develop things to work, inspire and scale. Fully commitment to good ideas and solving problems along the way. In short, I work on a project with a full scope in mind.</p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="sp-txt-box mt-lg-2">
                             <h3 class="mb-1">Deployment</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                            <p>WSGI, Docker, Jenkins, Ansible, Jira, Amazon Web Services (AWS), DigitalOcean.</p>
                         </div>
                     </div>
                     <div class="col-12 col-2 col-lg-4 mt-0">
@@ -73,7 +73,8 @@
                         </div>
                         <div class="sp-txt-box mt-lg-2">
                             <h3 class="mb-1">Environment</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                            <p>Linux Unix, OS X, Git, Github, BitBucket, JIRA, Docker Hub, 
+                                Continuous integration, Agile (Scrum, Kanban), UML (Unified Modelling Language).</p>
                         </div>
                     </div>
                 </div>
@@ -92,35 +93,30 @@
                     <div class="col-12 col-lg-9">
                         <div class="row">
                             <div class="col-12 col-md-6 mb-2 mb-md-3">
-                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                    pulvinar lorem et nibh egestas congue.</p>
+                                <h3>Be proactive, not reactive.</h3>
+                                <p>Having a forward-thinking attitude, I'm always receptive to new ideas and possibilities in order to construct a solid vision that helps to my achieve goals.</p>
                             </div>
                             <div class="col-12 col-md-6 mb-2 mb-md-3">
-                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                        pulvinar lorem et nibh egestas congue.</p>
+                                <h3>Secure code is good code.</h3>
+                                <p>As a software developer, it is my responsibility to make sure that any software produced is not used to cause harm; you must ensure that your software is secure.</p>
                             </div>
                             <div class="col-12 col-md-6 mb-2 mb-md-3">
-                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                    pulvinar lorem et nibh egestas congue.</p>
+                                <h3>Good code is code that has good design.</h3>
+                                <p>The cleaner the code, the better you'll be seen as a professional and the easier it will be to make adjustments, correct bugs and implement new features in the future.</p>
                             </div>
                             <div class="col-12 col-md-6 mb-2 mb-md-3">
-                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                    pulvinar lorem et nibh egestas congue.</p>
+                                <h3>The more you know about devops, the better your code will be.</h3>
+                                <p>Knowing the environment where your code run gives an advantage that looks far past my own machine, also it gives me a new set of skills that I could apply in my daily work as a developer.</p>
                             </div>
                             <div class="col-12 col-md-6 mb-2 mb-md-0">
-                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                        pulvinar lorem et nibh egestas congue.</p>
+                                <h3>Clarity ­in thinking, in style.</h3>
+                                <p>Simple, minimal and effective. This is my mantra and method. Creativity is essential, but it never can interfere with usability.</p>                    
                             </div>
-                            <div class="col-12 col-md-6">
+                            <!-- <div class="col-12 col-md-6">
                                 <h3>Lorem ipsum dolor sit amet, consectetur</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
                                     pulvinar lorem et nibh egestas congue.</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -146,15 +142,18 @@
                     </div>
                     <div class="col-1 mb-6 mt-1 mt-lg-3">
                         <div class="impressions-fader">
-                            <span class="impressions first hidden" style="opacity: 0;">I like to travel and explore mysterious places.</span>
+                            <span class="impressions first hidden" style="opacity: 0;">I enjoy great music and I love science fiction movies.</span>
                             <span class="impressions second hidden" style="opacity: 0;">I transform my thoughts into reality.</span>
                             <span class="impressions third hidden" style="opacity: 0;">I ride my bike whatever I go.</span>
-                            <span class="impressions last hidden" style="opacity: 0;">I enjoy great music and I love science fiction.</span>
+                            <span class="impressions last hidden" style="opacity: 0;">web developer, nerd and hard working problem solver.</span>
                         </div>
                     </div>
                     <div class="col-1 mt-lg-2">
-                        <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
+                        <p class="text-1">My name is Sisco Puig. I'm a professional full-stack web developer based in Berlin, Germany. I develop web applications and have a strong background in cloud-based solutions, API development, data scrapping and prototyping utilising Python. I excel at helping businesses and clients bring their ideas to life, and when you hire me, I'll do the same for you.
+                        I have a positive and motivated attitude, great personal hygiene, 
+adaptable personality, time management skills, ability to grow facial 
+hair and creativity oozing at the seams. Those all seem like excellent 
+reasons to want to work with someone.</p>
                     </div>
                 </div>
             </div>

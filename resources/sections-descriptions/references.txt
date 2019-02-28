@@ -29,6 +29,11 @@ Backend developer skills:
  -  Experience with version control, such as Git.
 
 
+ Devops work
+   -  Process Management, Threads and Concurrency, Sockets, I/O Management, 
+      Virtualization, Memory storage and File systems.
+
+
 
  BACKEND BEST PRACTICES
 https://github.com/futurice/backend-best-practices
