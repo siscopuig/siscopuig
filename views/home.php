@@ -17,14 +17,14 @@
                 </div>
                 <div class="poster-img-box d-md-block">
                     <img class="fade-in poster-slidein" alt="hello-image"
-                        data-srcset="../public/images/poster/laptop-500x290.svg 500w,
-                                     ../public/images/poster/laptop-1000x580.svg 1000w" 
+                        data-srcset="<?php echo BASE_URL; ?>assets/images/poster/laptop-500x290.svg 500w,
+                                     <?php echo BASE_URL; ?>assets/images/poster/laptop-1000x580.svg 1000w"
                         data-sizes="(min-width: 768px) 50vw, 1vw" 
-                        data-src="../public/images/poster/laptop-500x290.svg 1000w" 
+                        data-src="<?php echo BASE_URL; ?>assets/images/poster/laptop-500x290.svg 1000w"
                         sizes="(min-width: 768px) 50vw, 1vw" 
-                        srcset="../public/images/poster/laptop-500x290.svg 500w,
-                                ../public/images/poster/laptop-1000x580.svg 1000w"
-                        src="../public/images/poster/laptop-1000x580.svg">
+                        srcset="<?php echo BASE_URL; ?>assets/images/poster/laptop-500x290.svg 500w,
+                                <?php echo BASE_URL; ?>assets/images/poster/laptop-1000x580.svg 1000w"
+                        src="<?php echo BASE_URL; ?>assets/images/poster/laptop-1000x580.svg">
                 </div>
             </div>
         </div>
@@ -45,7 +45,6 @@
                         <div class="sp-txt-box mt-lg-2">
                             <h3 class="mb-1">Code</h3>
                             <p>Python, PHP, Java, Django Framework, Selenium - Web Browser Automation, HTML5, CSS3, Sass, XPath, XML, Json, Javascript, jQuery.</p>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p> -->
                         </div>
                     </div>
                     <div class="col-12 col-2 col-lg-4 mt-0 mb-md-2">
@@ -55,7 +54,6 @@
                         <div class="sp-txt-box mt-lg-2">
                             <h3 class="mb-1">Data</h3>
                             <p>Database creation, integration and management for MySQL, SQL, PostgreSQL, Redis, memcached, SQlite, MongoDb, Oracle.</p>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p> -->
                         </div>
                     </div>
                     <div class="col-12 col-2 col-lg-4 mt-0 mb-md-2">
@@ -112,11 +110,6 @@
                                 <h3>Clarity ­in thinking, in style.</h3>
                                 <p>Simple, minimal and effective. This is my mantra and method. Creativity is essential, but it never can interfere with usability.</p>                    
                             </div>
-                            <!-- <div class="col-12 col-md-6">
-                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                                    pulvinar lorem et nibh egestas congue.</p>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -131,10 +124,10 @@
                 <div class="row py-3 py-md-5 py-lg-7 aboutme">
                     <div class="col-1 txt-al-ce mb-5">
                         <picture>
-                            <source media="(min-width: 768px)" srcset="../public/images/profile-150x150.jpeg">
-                            <source media="(min-width: 465px)" srcset="../public/images/profile-100x100.jpeg">
-                            <source media="(max-width: 464px)" srcset="../public/images/profile-65x65.jpeg">
-                            <img src="../public/images/profile-100x100.jpeg" style="width:auto;">                    
+                            <source media="(min-width: 768px)" srcset="<?php echo BASE_URL; ?>assets/images/profile-150x150.jpeg">
+                            <source media="(min-width: 465px)" srcset="<?php echo BASE_URL; ?>assets/images/profile-100x100.jpeg">
+                            <source media="(max-width: 464px)" srcset="<?php echo BASE_URL; ?>assets/images/profile-65x65.jpeg">
+                            <img src="<?php echo BASE_URL; ?>assets/images/profile-100x100.jpeg" alt="profile-image" style="width:auto;">
                         </picture>
                     </div>
                     <div class="col-1 txt-al-ce mt-2 mt-lg-3">
@@ -170,7 +163,7 @@
                         <div class="d-none d-md-block mb-md-3">
                             <span>You know about me, let’s talk about you.</span>
                         </div>
-                        <span class="pt-3"><a href="#">Send me a message</a></span>
+                        <span class="pt-3"><a href="mailto:sisco@siscopuig.com">Send me a message</a></span>
                     </div>
                 </div>
             </div>

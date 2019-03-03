@@ -7,30 +7,32 @@
          specific device would basically just display a zoomed-out version of your page   -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css files -->
-    <link href="../public/css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="../public/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo BASE_URL;?>assets/css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo BASE_URL;?>assets/css/styles.css" rel="stylesheet" type="text/css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="../public/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../public/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../public/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../public/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../public/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../public/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../public/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../public/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../public/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="../public/images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512"  href="../public/images/favicons/android-icon-512x512.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../public/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../public/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../public/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="../public/images/favicons/manifest.json">
-    <link rel="mask-icon" href="../public/images/favicons/safari-pinned-tab.svg" color="#171717">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo BASE_URL;?>assets/images/favicons/favicon.ico">
+    <link rel="icon" href="<?php echo BASE_URL;?>assets/images/favicons/favicon.ico" type="image/icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo BASE_URL;?>assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?php echo BASE_URL;?>assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="<?php echo BASE_URL;?>assets/images/favicons/android-icon-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo BASE_URL;?>assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?php echo BASE_URL;?>assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo BASE_URL;?>assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo BASE_URL;?>assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="<?php echo BASE_URL;?>assets/images/favicons/safari-pinned-tab.svg" color="#171717">
     <meta name="msapplication-TileColor" content="#171717">
-    <meta name="msapplication-TileImage" content="../public/images/favicons/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="<?php echo BASE_URL;?>assets/images/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     
     <!-- title -->
@@ -41,13 +43,13 @@
 <body>
 <!-- Header nav-->
 <header id="header" class="header">
-    <a href="#" class="header-logo" data-go="home" title="Home"></a>        
+    <a href="<?php echo BASE_URL;?>" class="header-logo" data-go="home" title="Home"></a>
     <nav class="d-none d-md-block">
         <ul class="header-nav">
-            <li><a class="active view-home" data-go="home" href="index.php">Profile</a></li>
-            <li><a class="view-work" data-go="work" data-scroll href="http://localhost:3000/public/index.php#aboutme">About me</a></li>
+            <li><a class="active view-home" data-go="home" href="<?php echo BASE_URL;?>">Profile</a></li>
+            <li><a class="view-work" data-go="work" data-scroll href="<?php echo BASE_URL;?>#aboutme">About me</a></li>
             <li><a class="view-blog" data-go="blog" href="#">Github</a></li>
-            <li><a class="view-contact" data-go="contact" href="contact.php">Contact</a></li>
+            <li><a class="view-contact" data-go="contact" href="<?php echo BASE_URL;?>contact.php">Contact</a></li>
         </ul>
     </nav>
     <button class="d-md-none mobile-menu-button" aria-label="Menu"><span></span></button>
@@ -56,15 +58,15 @@
 <!-- mobile menu -->
 <div class="mobile-menu in" style="display: none;" id="nav-overlay">
     <div class="mobile-menu-header">
-        <a href="" class="header-logo" data-go="home" title="Home">Home</a>
+        <a href="<?php echo BASE_URL;?>" class="header-logo" data-go="home" title="Home">Home</a>
         <button class="mobile-menu-close" aria-label="Close Menu"><span></span></button>
     </div>
     <nav>
         <ul class="mobile-menu-navigation">
-            <li><a class="active view-home" data-go="home" href="index.php">Profile</a></li>
-            <li><a class="view-aboutme" data-go="aboutme" href="http://localhost:3000/public/index.php#aboutme">About me</a></li>
+            <li><a class="active view-home" data-go="home" href="<?php echo BASE_URL;?>">Profile</a></li>
+            <li><a class="view-aboutme" data-go="aboutme" href="<?php echo BASE_URL;?>#aboutme">About me</a></li>
             <li><a class="view-github" data-go="github" href="#">Github</a></li>
-            <li><a class="view-contact" data-go="contact" href="contact.php">Contact</a></li>
+            <li><a class="view-contact" data-go="contact" href="<?php echo BASE_URL;?>contact.php">Contact</a></li>
         </ul>
   </nav>
 </div>

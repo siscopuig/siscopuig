@@ -25,9 +25,9 @@
             <div class="row">
                 <!-- form-box -->
                 <div class="col-12 col-2">
-                    <h3 class="hl4-text wht mb-1">Drop me a line</h2>
+                    <h3 class="hl4-text wht mb-1">Drop me a line</h3>
                     <div id="feedback_box"></div>
-                    <form class="form-style" action="http://localhost:3000/config/mail.php" method="post">
+                    <form class="form-style" action="<?php echo BASE_URL; ?>config/mailer.php" method="post">
                         <div class="form-group" id="name-group">
                             <label for="name"></label>
                             <input type="text" class="form-control required" id="name" name="name"
@@ -80,7 +80,7 @@
                                             </g>
                                         </g>
                                     </svg>
-                                    <span><a>siscopuig</a></span>
+                                    <span><a href="mailto:sisco@siscopuig.com">siscopuig</a></span>
                                 </div>
                                 <div class="contact-logo">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -99,7 +99,7 @@
                                                 fill-rule="evenodd" fill="rgb(62,57,57)" />
                                         </g>
                                     </svg>
-                                    <span><a>facebook</a></span>
+                                    <span><a href="#">facebook</a></span>
                                 </div>
                                 <div class="contact-logo">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -113,7 +113,7 @@
                                                 fill="rgb(62,57,57)" />
                                         </g>
                                     </svg>
-                                    <span><a>skype</a></span>
+                                    <span><a href="skype:siscopuig?add">skype</a></span>
                                 </div>
                             </div>
                         </div>
