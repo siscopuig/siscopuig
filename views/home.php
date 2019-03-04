@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="poster-img-box d-md-block">
-                    <img class="fade-in poster-slidein" alt="hello-image"
+                    <img class="fade-in poster-slidein" alt="poster-image"
                         data-srcset="<?php echo BASE_URL; ?>assets/images/poster/laptop-500x290.svg 500w,
                                      <?php echo BASE_URL; ?>assets/images/poster/laptop-1000x580.svg 1000w"
                         data-sizes="(min-width: 768px) 50vw, 1vw" 
@@ -100,7 +100,7 @@
                             </div>
                             <div class="col-12 col-md-6 mb-2 mb-md-3">
                                 <h3>Good code is code that has good design.</h3>
-                                <p>The cleaner the code, the better you'll be seen as a professional and the easier it will be to make adjustments, correct bugs and implement new features in the future.</p>
+                                <p>The cleaner the code, the easier it will be to make adjustments, correct bugs and implement new features in the future.</p>
                             </div>
                             <div class="col-12 col-md-6 mb-2 mb-md-3">
                                 <h3>The more you know about devops, the better your code will be.</h3>
