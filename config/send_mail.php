@@ -15,17 +15,16 @@ function sendPhpMailer($subject, $body)
         //Server settings
         #$mail->SMTPDebug = 2;                       // Enable verbose debug output
         $mail->isSMTP();                             // Set mailer to use SMTP
-        $mail->Host = 'server258.web-hosting.com';   // Specify main and backup SMTP servers
+        $mail->Host = '';   // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                      // Enable SMTP authentication
-        $mail->Username = 'sisco@siscopuig.com';     // SMTP username
-        $mail->Password = 'Radiohit@66';             // SMTP password
+        $mail->Username = '';                        // SMTP username
+        $mail->Password = '';             // SMTP password
         $mail->SMTPSecure = 'ssl';                   // Enable TLS encryption, `ssl` also accepted
         $mail->Port = 465;                           // TCP port to connect to
-
         //Content
         $mail->isHTML(true);
-        $mail->From = 'sisco@siscopuig.com';
-        $mail->addAddress('sisco@siscopuig.com');
+        $mail->From = '';
+        $mail->addAddress('');
         $mail->Subject = $subject;
         $mail->Body    = $body;
         $mail->AltBody = $body;
@@ -80,6 +79,7 @@ if (! empty($errors)) {
 
 } else {
 
+    # Creates email body
     $body = "
         <p>Name: $name</p>
         <p>Mail address: $email</p>

@@ -7,5 +7,3 @@
 # Local development
 define('BASE_URL', 'http://'.$_SERVER['HTTP_HOST'] .
     str_replace('public', '', dirname($_SERVER['SCRIPT_NAME'])));
-
-// echo BASE_URL;
