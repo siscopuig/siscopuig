@@ -87,24 +87,30 @@ $(document).ready(function() {
         };
 
         // Shows data input form on console
-        //console.log(data_form);
+        // console.log(data_form);
 
         // Process the form
         // Notice: url has no extension because htaccess configuration!!
         $.ajax({
             type 		: 'POST', // define the type of HTTP verb we want to use (POST for our form)
-            url 		: '../config/send_mail', // The url where we want to POST
-            data 		: data_form, // our data object
+            url 		: '/mail', // The url where we want to POST
+            data 		:  data_form, // our data object
             contentType : 'application/x-www-form-urlencoded',
             dataType 	: 'json', // what type of data do we expect back from the server
-            encode 		: true
+            encode 		: true,
+            // success     : function(response) {
+            //     console.log('Response success ' + response);
+            // },
+            // error: function(error) {
+            //     console.log('Error: ' + error);
+            // }
         })
 
         // Using the done promise callback
         .done(function(data) {
 
             // Log data to the console for debugging purposes
-            //console.log(data);
+            // console.log(data);
 
             // Handle errors and validation messages
             if (! data.success) {
@@ -129,7 +135,7 @@ $(document).ready(function() {
                     '. Your email was successfully sent and I&rsquo;ll be in touch with you soon.</p>');
 
                 // Usually after form submission, you'll want to redirect
-                // window.location = '/thank-you'; // redirect a user to another page
+                // window.location = '/greetings.php'; // redirect a user to another page
 
                 // Reset form after submitting.
                 $('form').each(function() {
@@ -141,7 +147,7 @@ $(document).ready(function() {
         // Using the fail promise callback
         .fail(function(data) {
             // Show any errors, best to remove for production.
-            //console.log(data);
+            // console.log(data);
         });
         // Stop the form from submitting the normal way and refreshing the page.
         event.preventDefault();

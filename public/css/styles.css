@@ -20,24 +20,16 @@ html {
     font-size: 62.5%;
 }
 
-/* @media (min-width: 768px) {
-    html {
-        font-size: 12px;
-    }
-} */
-
 @media (min-width: 900px) {
     html {
         font-size: 12px;
     }
 }
-
 @media (min-width: 1400px) {
     html {
         font-size: 14px;
     }
 }
-  
 body {
     overflow-x: hidden;
     line-height: 1.5;
@@ -71,7 +63,6 @@ ul {
     list-style: none;
     padding: 0;
 }
-
 /* Common */
 .wht {
     color: #FFFFFF;
@@ -313,7 +304,7 @@ ul {
     text-indent: -9999em;
     transform: scale(0.7);
     filter: brightness(1);
-    background: transparent url("../../assets/images/logo/logo-black_30x32.svg") no-repeat;
+    background: transparent url("../images/logo/logo-black_30x32.svg") no-repeat;
 }
 
 .header-nav {
@@ -1316,7 +1307,7 @@ textarea.form-control:focus {
     width: 21px;
     height: 22px;
     transform: scale(0.8);
-    background: transparent url("../../assets/images/logo/logo-white-21x22.svg") no-repeat scroll 0 0;
+    background: transparent url("../images/logo/logo-white-21x22.svg") no-repeat scroll 0 0;
 }
 
 .footer-mark {
