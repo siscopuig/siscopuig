@@ -12,6 +12,7 @@ $app = new App(
     ['settings' => ['displayErrorDetails' => true]
 ]);
 
+
 $container = $app->getContainer();
 $container['views'] = function($container) {
 

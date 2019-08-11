@@ -7,9 +7,10 @@
         <!-- different media queries will be able to have the correct effect. Without this, viewing the page in the
             specific device would basically just display a zoomed-out version of your page   -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The Website &amp; of Sisco Puig">
         <!-- css files -->
-        <link href="{{ base_url() }}/css/normalize.css" rel="stylesheet" type="text/css">
-        <link href="{{ base_url() }}/css/styles.css" rel="stylesheet" type="text/css">
+{#        <link href="{{ base_url() }}/css/normalize.css" rel="stylesheet" type="text/css">#}
+        <link href="{{ base_url() }}/css/all.css" rel="stylesheet" type="text/css">
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
@@ -42,6 +43,7 @@
     </head>
     <!-- MAIN NAVIGATION -->
     <body>
+
     <!-- Header nav-->
     <header id="header" class="header">
         <a href="{{ base_url() }}/" class="header-logo" data-go="home" title="Home"></a>
@@ -83,49 +85,49 @@
 
     {% block footer %}
     <footer class="break-out footer-bg footer wht py-3">
-            <div class="container-fluid">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-12 col-align-vertically mb-3 mb-md-3 mb-lg-0">
-                        <div class="footer-mark-logo">
-                        </div>
-                        <div class="footer-mark">
-                            <span class="title">Handcrafted by Sisco Puig</span>
-                            <span class="subline">©Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
-                        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-align-vertically mb-3 mb-md-3 mb-lg-0">
+                    <div class="footer-mark-logo">
                     </div>
-                    <div class="col-12 col-lg-3">
-                        <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
-                        <nav id="sitemap" class="d-lg-block collapse pb-0">
-                            <ul class="footer-sitemap">
-                                <li><a data-go="home" href="{{ base_url() }}/" target="_blank" title="" rel="">Profile</a></li>
-                                <li><a data-go="aboutme" href="{{ base_url() }}/#aboutme" target="_blank" title="" rel="">About me</a></li>
-                                <li><a data-go="contact" href="{{ base_url() }}/contact" target="_blank" title="" rel="">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-12 col-lg-3 footer-bottom">
-                        <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
-                        <nav>
-                            <ul id="social" class="d-lg-block collapse pb-0">
-                                <li><a href="https://github.com/siscopuig" target="_blank" title="github" rel="">Github</a></li>
-                                <li><a href="#" target="_blank" title="" rel="">Facebook</a></li>
-                                <li><a href="#" target="_blank" title="" rel="">Twitter</a></li>
-                            </ul>
-                        </nav>
+                    <div class="footer-mark">
+                        <span class="title">Handcrafted by Sisco Puig</span>
+                        <span class="subline">©Copyright 2014-2019 by Sisco Puig, all rights reserved.</span>
                     </div>
                 </div>
+                <div class="col-12 col-lg-3">
+                    <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
+                    <nav id="sitemap" class="d-lg-block collapse pb-0">
+                        <ul class="footer-sitemap">
+                            <li><a data-go="home" href="{{ base_url() }}/" target="_blank" rel="noopener" title="">Profile</a></li>
+                            <li><a data-go="aboutme" href="{{ base_url() }}/#aboutme" target="_blank" rel="noopener" title="">About me</a></li>
+                            <li><a data-go="contact" href="{{ base_url() }}/contact" target="_blank" title="" rel="noopener">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-12 col-lg-3 footer-bottom">
+                    <h4 class="d-lg-none collapsed " data-expand="#social">Social</h4>
+                    <nav>
+                        <ul id="social" class="d-lg-block collapse pb-0">
+                            <li><a href="https://github.com/siscopuig" target="_blank" title="github" rel="noopener">Github</a></li>
+                            <li><a href="#" target="_blank" title="" rel="noopener">Facebook</a></li>
+                            <li><a href="#" target="_blank" title="" rel="noopener">Twitter</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     <!-- =======================  JavaScript  =========================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{{ base_url() }}/js/jquery/jquery3.3.1.min.js"></script>
+    {# // <script src="{{ base_url() }}/js/jquery3.4.1.min.js"></script> #}
     <!-- Headroom js - Hide header when scrolling down, show up scrolling up -->
     <!-- https://cdnjs.com/libraries/headroom -->
-    <script src="{{ base_url() }}/js/headroom.min.js"></script>
-    <script src="{{ base_url() }}/js/jquery/jQuery.headroom.js"></script>
-    <script src="{{ base_url() }}/js/application.js"></script>
+    {# // <script src="{{ base_url() }}/js/jQuery.headroom.js"></script> #}
+    {# // <script src="{{ base_url() }}/js/headroom.min.js"></script> #}
+    <script src="{{ base_url() }}/js/all.js"></script>
     <!-- Scrolling down to other parts of the page smoothly -->
-    <script src="{{ base_url() }}/js/smooth-scroll.min.js"></script>
+    {# // <script src="{{ base_url() }}/js/smooth-scroll.min.js"></script> #}
     <script>
         let scroll = new SmoothScroll('a[href*="#"]', {
             speed: 600

@@ -8,6 +8,12 @@ use \Psr\Http\Message\ResponseInterface as Response;
 class ContactController extends BaseController
 {
 
+    /**
+     * @param Request  $request
+     * @param Response $response
+     *
+     * @return mixed
+     */
     public function contact(Request $request, Response $response)
     {
         return $this->container->views->render($response, 'contact.twig');

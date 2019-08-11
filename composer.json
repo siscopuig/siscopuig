@@ -1,0 +1,10 @@
+{
+    "name": "",
+    "description": "",
+    "autoload": {
+        "files": ["mix.php"]
+    },
+  "require": {
+    "ext-json": "*"
+  }
+}

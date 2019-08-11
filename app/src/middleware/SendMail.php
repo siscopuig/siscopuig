@@ -4,7 +4,6 @@ namespace App\Siscopuig;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-use App\Siscopuig\ConfigParser;
 
 class SendMail
 {

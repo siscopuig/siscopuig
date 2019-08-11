@@ -12,7 +12,6 @@
             "App\\Siscopuig\\": "src/"
         }
     },
-
     "minimum-stability": "stable",
     "prefer-stable": true
 }
