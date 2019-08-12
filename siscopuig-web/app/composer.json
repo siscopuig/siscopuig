@@ -1,0 +1,30 @@
+{
+    "name": "siscopuig/siscopuig",
+    "description": "Personal website",
+
+    "require": {
+        "slim/slim": "^3.1",
+        "phpmailer/phpmailer": "^6.0",
+        "slim/twig-view": "^2.5",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "apigen/apigen": "dev-master",
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "^7.0",
+        "roave/better-reflection": "dev-master",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Siscopuig\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AppTest\\Siscopuig\\": "test/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

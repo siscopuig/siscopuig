@@ -1,7 +1,22 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea/
-.vscode
-node_modules
-vendor
-composer.lock
-package-lock.json
+# Global
+.*.swp
+.DS_Store
+
+# PHPStorm
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Application
+siscopuig-web/app/node_modules
+siscopuig-web/app/composer.lock
+siscopuig-web/app/package-lock.json
+siscopuig-web/app/vendor/
+siscopuig-web/app/doc/
+siscopuig-web/app/report/
+siscopuig-web/app/resources/
+data/
+doc/
+
+# SSL Certs
+etc/ssl/
